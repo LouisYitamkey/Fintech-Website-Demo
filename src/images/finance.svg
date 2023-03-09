@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_reg_azure_wealthtech</title>
+    <g id="icon_reg_azure_wealthtech" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wealthtech">
+            <g id="BG" fill-rule="nonzero">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+            </g>
+            <g id="Icon" transform="translate(13.000000, 13.000000)" stroke="#058ED8" stroke-width="2">
+                <path d="M37,27 L37,11 C37,8.790861 35.3016596,7 33.2066506,7 L32.5807479,7 C31.5388215,7.00389925 30.5442871,7.45954729 29.8305696,8.26 L26.7579566,11.71 M22.4921141,12.9999991 L17.4544475,12.9999991 C16.2512467,12.999152 15.1164686,13.5796819 14.3855242,14.57 L9.29960403,21.43 C8.57072151,22.4175283 7.44013928,22.9977361 6.24033138,22.9999991 L4.86028094,22.9999991 C2.72830665,22.9999991 1,24.790861 1,26.9999991 L1,26.9999991" id="Shape"></path>
+                <circle id="Oval" fill-rule="nonzero" cx="25" cy="13" r="3"></circle>
+                <line x1="1" y1="35" x2="1" y2="38" id="Path"></line>
+                <line x1="37" y1="35" x2="37" y2="38" id="Path"></line>
+                <line x1="25" y1="35" x2="25" y2="38" id="Path"></line>
+                <line x1="13" y1="35" x2="13" y2="38" id="Path"></line>
+                <line x1="25" y1="0" x2="25" y2="11" id="Path" fill-rule="nonzero"></line>
+                <line x1="25" y1="15" x2="25" y2="27" id="Path"></line>
+                <line x1="0" y1="13" x2="11" y2="2" id="Path" fill-rule="nonzero"></line>
+                <polyline id="Path" points="3 1 12 1 12 10"></polyline>
+                <line x1="0" y1="31" x2="38" y2="31" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>
