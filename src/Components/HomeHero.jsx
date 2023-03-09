@@ -26,9 +26,9 @@ const Homehero = () => {
 
       <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0  my-5 relative`}>
         <div>
-        <h1 className='md:text-7xl tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] text-white'> Instant access to <br/> open banking</h1>
+        <h1 className='md:text-7xl tracking-wide text-5xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] text-white'> Instant access to <br/> open banking</h1>
 
-     <p className=' pt-7 md:pt-10 text-lg text-white px-10 md:leading-[30px]  md:px-0  md:font-medium' >
+     <p className=' pt-7 md:pt-10 text-lg text-white px-3 md:leading-[30px]  md:px-0  md:font-medium' >
       Easily integrate next-generation payments and financial data <br className='hidden md:block'/> into any app. Build powerful products your customers love.
 
      </p>
@@ -48,10 +48,10 @@ const Homehero = () => {
 </div>
 {/* For Mobile */}
 <div className='pt-10 pb-10 md:hidden'>
-    <div className='w-full h-full mb-5 px-10'>
+    <div className='w-full h-full mb-5 px-3'>
     <button  class="fluid ui button orange "> Get in Touch  </button>
     </div>
-    <div className='w-full h-full px-10'>
+    <div className='w-full h-full px-3'>
     <button  class="fluid ui button blue "> Start Building</button>
     </div>
 

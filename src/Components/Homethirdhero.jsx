@@ -20,12 +20,12 @@ const Homethirdhero = () => {
       <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0 md:pt-16 my-5 relative`}>
         <div className=' pb-5 '>
 
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className="flex flex-row items-center py-[6px] px-4 md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-3`}>
+        <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
      <div>
-    <span className='md:text-xl text-xl pl-2   md:pl-1 text-[#7991a2]  font-bold '> Financial Data</span> 
+    <span className='md:text-xl text-xl    md:pl-1 text-[#7991a2]  font-bold '> Financial Data</span> 
        <h1 className='md:text-5xl hidden md:block text-[#093554] md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '> Connect your app <br/> to any bank account </h1>
-       <h1 className='text-3xl  mb-10 pl-2 text-[#093554] md:hidden pt-2 font-extrabold'> Connect your app to any bank account</h1>
+       <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-[#093554] text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Connect your app  to <br/> any bank account </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />

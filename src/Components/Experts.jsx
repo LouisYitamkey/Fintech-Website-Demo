@@ -11,7 +11,7 @@ const Experts = () => {
         </div>
 
         <h1 className='md:text-5xl md:pb-14 hidden md:block text-center text-[#093554] md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > We're open banking experts </h1>
-        <h1 className='text-4xl text-center  mb-10 pl-2 pb-5  md:hidden pt-2 font-extrabold'> We're open <br/> banking experts  </h1>
+        <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-[#093554] text-4xl text-center md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> We're open <br/> banking  experts </h1>
 <div>
 
 </div>
@@ -70,17 +70,15 @@ const Experts = () => {
       </div>
 
       {/* For Mobile */}
-<div className='pt-20 pb-24 md:hidden'>
-<div className='w-full mb-3 h-full px-10'>
-    <button  class="fluid ui button blue "> Start Building</button>
-    </div> 
-    
-    <div className='w-full h-full mb-5 px-10'>
-    <button  class="fluid ui button orange "> Get in Touch  </button>
+      <div className=' pt-10 px-3 md:hidden'>
+    <div className='w-full h-full mb-5 '>
+    <button  class="fluid ui button orange ">  Start Building </button>
     </div>
-   
+    <div className='w-full h-full '>
+    <button  class="fluid ui button blue "> Get in touch </button>
+    </div>
 
- </div>
+</div>
             
  </div>
     </div>
