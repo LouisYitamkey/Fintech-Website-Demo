@@ -51,17 +51,19 @@ export default function BasicTabs() {
          
       <Box sx={{ borderBottom: 1, borderColor: 'divider'  }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab sx={{ ml: 8, fontSize:'14px' }}  label="Get a payment API token" {...a11yProps(0)} />
-          <Tab sx={{ ml: 12, fontSize:'14px' }} label="Initiate a payment" {...a11yProps(1)} />
+          <Tab sx={{  fontSize:'14px' }}  label="Get a payment API token &nbsp; &nbsp; " {...a11yProps(0)} />
+          <Tab sx={{  fontSize:'14px' }} label="&nbsp; &nbsp; Initiate a payment" {...a11yProps(1)} />
         
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <img className='w-4/5 md:ml-40 rounded-md' src={Mycode}/>
+        <p className='py-24'>API CODE HERE</p>
+      
        
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <img className='w-4/5 md:ml-40 rounded-md' src={Mycode}/>
+      <p className='py-24'>INITIATE API CODE HERE</p>
+   
       </TabPanel>
     
 

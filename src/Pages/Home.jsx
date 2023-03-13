@@ -8,6 +8,8 @@ import Experts from '../Components/Experts'
 import Developers from '../Components/Developers'
 import Global from '../Components/Global'
 import Testimonials from '../Components/Testimonials'
+import Footer from '../Components/Footer'
+
 
 
 
@@ -53,10 +55,12 @@ const Home = () => {
        <div>
         <Global/>
        </div>
+       
+       <div>
+        <Footer/>
+    
+       </div>
 
-    
-    
-        
       
     </div>
   )

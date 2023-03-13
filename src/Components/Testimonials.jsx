@@ -17,7 +17,7 @@ export default function Testimonials() {
 
     
     <>
-    <div className="bg-slate-100 w-full ">
+    <div className="bg-slate-100 w-full md:px-52 ">
     <Swiper
         spaceBetween={30}
         centeredSlides={true}
