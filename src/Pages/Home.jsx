@@ -6,6 +6,8 @@ import Partners from '../Components/Partners'
 import Usecases from '../Components/Usecases'
 import Experts from '../Components/Experts'
 import Developers from '../Components/Developers'
+import Global from '../Components/Global'
+import Testimonials from '../Components/Testimonials'
 
 
 
@@ -43,8 +45,16 @@ const Home = () => {
         <Developers/>
       </div>
 
+      <div>
+        <Testimonials/>
+         </div>
+
    
-       
+       <div>
+        <Global/>
+       </div>
+
+    
     
         
       

@@ -1,6 +1,6 @@
 import React from 'react'
 import BasicTabs from './Tabs'
-import Testimonials from './Testimonials'
+
 import Button from '@mui/material/Button';
 import { BiChevronRight } from "react-icons/bi";
 
@@ -19,7 +19,7 @@ const Developers = () => {
 
         </div>
          <div>
-            <Testimonials/>
+         
          </div>
 
 

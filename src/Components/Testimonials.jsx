@@ -14,8 +14,11 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Testimonials() {
   return (
+
+    
     <>
-      <Swiper
+    <div className="bg-slate-100 w-full ">
+    <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -57,6 +60,9 @@ export default function Testimonials() {
       
      
       </Swiper>
+        
+    </div>
+    
     </>
   );
 }
