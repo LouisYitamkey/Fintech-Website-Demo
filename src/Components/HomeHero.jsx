@@ -34,6 +34,7 @@ const Homehero = () => {
      </p>
      {/* For Desktop */}
 <div className='hidden md:block'>
+  
 <div className='flex  space-x-5'>
      <div className='pt-10'>
      <Button className=" bg-[#f7ab1b] border-[#f7ab1b] text-base  hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined">Get In Touch <BiChevronRight size={30} /> </Button>

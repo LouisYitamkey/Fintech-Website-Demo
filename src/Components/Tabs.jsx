@@ -57,11 +57,11 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <img className='w-4/5 md:ml-40' src={Mycode}/>
+        <img className='w-4/5 md:ml-40 rounded-md' src={Mycode}/>
        
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <img className='w-4/5 md:ml-40' src={Mycode}/>
+      <img className='w-4/5 md:ml-40 rounded-md' src={Mycode}/>
       </TabPanel>
     
 
