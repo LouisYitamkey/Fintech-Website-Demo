@@ -5,6 +5,8 @@ import Homethirdhero from '../Components/Homethirdhero'
 import Partners from '../Components/Partners'
 import Usecases from '../Components/Usecases'
 import Experts from '../Components/Experts'
+import Developers from '../Components/Developers'
+
 
 
 
@@ -36,6 +38,12 @@ const Home = () => {
       <Experts />
 
       </div>
+
+      <div>
+        <Developers/>
+      </div>
+
+   
        
     
         
