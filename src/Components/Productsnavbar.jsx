@@ -48,7 +48,7 @@ const Productsnavbar = () => (
       }}
   
     >
-     <span className=' hover:cursor-pointer md:text-lg'>Products </span>
+     <span className=' hover:cursor-pointer text-white md:text-lg'>Products </span>
     </Dropdown>
    
   </>
