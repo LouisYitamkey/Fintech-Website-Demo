@@ -4,6 +4,7 @@ import Video from '../video/herovideo.webm'
 import Button from '@mui/material/Button';
 import { BiChevronRight } from "react-icons/bi";
 
+
 const Homehero = () => {
   return (
     <div className='w-full h-full '>
@@ -32,9 +33,12 @@ const Homehero = () => {
       Easily integrate next-generation payments and financial data <br className='hidden md:block'/> into any app. Build powerful products your customers love.
 
      </p>
+  
+
+
      {/* For Desktop */}
 <div className='hidden md:block'>
-  
+
 <div className='flex  space-x-5'>
      <div className='pt-10'>
      <Button className=" bg-[#f7ab1b] border-[#f7ab1b] text-base  hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined">Get In Touch <BiChevronRight size={30} /> </Button>

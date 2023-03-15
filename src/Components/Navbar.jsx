@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { VscMenu } from "react-icons/vsc";
-import { GrClose } from "react-icons/gr";
+
 
 
 import Button from '@mui/material/Button';
@@ -10,6 +9,8 @@ import Productsnavbar from "./Productsnavbar";
 import Industriesnavbar from "./Industriesnavbar";
 import Developersnavbar from "./Developersnavbar";
 import Companynavbar from "./Companynavbar";
+import { MuiDrawer } from './Drawer';
+
 
 
 
@@ -41,6 +42,10 @@ const Navbar = () => {
 <Companynavbar/>
 
 
+
+
+
+
 </ul>
 
 
@@ -57,7 +62,11 @@ const Navbar = () => {
 
       <div className="sm:hidden flex flex-1  justify-end items-center">
         <div onClick={handleToggle}>
-          {toggle ? <GrClose size={25} /> : <VscMenu size={25} />}
+           
+        <MuiDrawer />  
+
+
+        
 
           <div
             className={`${

@@ -20,10 +20,10 @@ const Experts = () => {
      </div>
         <div className='md:flex     md:justify-around md:px-20'>
             {/* 1st */}
-            <div className=''>
-            <div>
+            <div className='flex-row justify-center items-center'>
+            <div className='flex justify-center items-center'>
 
-                <CountUp className='text-5xl pl-48 md:pl-12 text-blue-400 text-center font-bold ' start={10} delay={2} end={69}/> <span className='text-5xl text-blue-400 text-center font-bold'>
+                <CountUp className='text-5xl  md:pl-12 text-blue-400 text-center font-bold ' start={10} delay={2} end={69}/> <span className='text-5xl text-blue-400 text-center font-bold'>
                 %</span>
             </div>
             <div className='flex justify-center items-center '>
@@ -32,10 +32,10 @@ const Experts = () => {
             </div>
          
              {/* 2nd */}
-            <div>
-            <div>
+            <div className='flex-row justify-center items-center'>
+            <div className='flex justify-center items-center'>
               
-                <CountUp className='text-5xl pl-48 md:pl-12 text-blue-400 text-center font-bold ' start={20} delay={2} end={60}/> <span className='text-5xl text-blue-400 text-center font-bold'>
+                <CountUp className='text-5xl  md:pl-12 text-blue-400 text-center font-bold ' start={20} delay={2} end={60}/> <span className='text-5xl text-blue-400 text-center font-bold'>
                 %</span>
             </div>
             <div className='flex justify-center items-center '>
@@ -45,9 +45,9 @@ const Experts = () => {
 
                  {/* 3rd */}
 
-            <div>
-            <div>
-            <CountUp className='text-5xl pl-48 md:pl-12 text-blue-400 text-center font-bold ' start={30} delay={2} end={90}/> <span className='text-5xl text-blue-400 text-center font-bold'>
+            <div className='flex-row justify-center items-center'>
+            <div className='flex justify-center items-center'>
+            <CountUp className='text-5xl  md:pl-12 text-blue-400 text-center font-bold ' start={30} delay={2} end={90}/> <span className='text-5xl text-blue-400 text-center font-bold'>
                 %</span>
             </div>
             <div className='flex justify-center items-center '>

@@ -6,6 +6,8 @@ import { BiChevronRight } from "react-icons/bi";
 
 
 
+
+
 const Homesecondhero = () => {
   return (
     <div className='w-full mt-12 md:mt-10  '>
@@ -13,6 +15,7 @@ const Homesecondhero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
         <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
      <div>
+  
     <span className='md:text-xl text-2xl pl-3   md:pl-1 text-[#7991a2]  md:font-bold '> Instant Bank Payments</span> 
        <h1 className=' hidden md:block md:text-5xl md:pt-5 text-[#093554] md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Build better payments <br/> experiences</h1>
        <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-[#093554] text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
@@ -21,7 +24,8 @@ const Homesecondhero = () => {
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-       <span className='font-normal pl-3 md:pl-0   text-lg'>Everything you need to send and receive money <br className='md:hidden'/>  &nbsp; on <span className='md:hidden'>   </span>the  <br className='hidden md:block'/> fastest rails at the lowest  <br className='hidden md:block'/> experience.</span>
+    <p className='font-normal pl-3 md:hidden   text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate  KYC    <br className='hidden md:block'/> processes.</p>
+    <span className='font-normal hidden md:block   text-lg'>Onboard customers in seconds and securely access account information.  Say goodbye to manual form-filling and accelerate your AML and KYC    processes.</span>
 
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
@@ -97,8 +101,8 @@ const Homesecondhero = () => {
 </div>
 
 {/* For Mobile */}
-
-<div className=' pt-10 pl-3 md:hidden'>
+    {/* For Mobile */}
+    <div className=' pt-10 mb-6 md:mb-0 px-3 md:hidden'>
     <div className='w-full h-full mb-5 '>
     <button  class="fluid ui button orange ">  Start Building </button>
     </div>
@@ -107,7 +111,7 @@ const Homesecondhero = () => {
     </div>
 
 </div>
- 
+        
        </div>
       </div>
       <div>
@@ -131,6 +135,7 @@ const Homesecondhero = () => {
 <video  className='w-80 border-8   rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
+
 
       </div>
 
