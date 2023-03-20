@@ -60,7 +60,7 @@ export default function Form() {
   
 
   return (
-    <form className="md:mx-5 md:w-80 md:my-4">
+    <form className="md:mx-5  md:w-80 md:my-4">
       <div className="md:w-full">
         <TextField
           name="name"

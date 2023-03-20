@@ -10,7 +10,7 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Homesecondhero = () => {
   return (
-    <div className='w-full mt-12 md:mt-10  '>
+    <div className='w-full h-full mt-12 md:mt-0   '>
           <section id="home" className={`flex md:px-28  md:flex-row  flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
         <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">

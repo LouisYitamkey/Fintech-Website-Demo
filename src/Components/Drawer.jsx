@@ -3,6 +3,7 @@ import { VscMenu } from "react-icons/vsc";
 
 import { useState } from 'react'
 
+
 export const MuiDrawer = () => {
 
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
@@ -12,7 +13,7 @@ return (
   
     <IconButton size='large' edge='start' color='inherit' arial-label='logo' onClick={()=> setIsDrawerOpen(true)}  >
        
-        <VscMenu/>
+        <VscMenu className="icon-style" />
 
 
     </IconButton>

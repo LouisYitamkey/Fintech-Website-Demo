@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className=" bg-white md:bg-blue-500  flex py-4 md:py-6 px-3 md:px-52  justify-between  ">
+    <nav className=" bg-blue-500  flex py-4 md:py-6 px-3 md:px-52  justify-between  ">
         <div className="flex items-center">
         <h1 className="font-bold md:pb-3 text-white  text-3xl"> Logo</h1>
     
@@ -58,12 +58,11 @@ const Navbar = () => {
      
 
       <div className="sm:hidden flex flex-1  justify-end items-center">
+       
         <div onClick={handleToggle}>
            
         <MuiDrawer />  
 
-
-        
 
           <div
             className={`${

@@ -7,7 +7,7 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Developers = () => {
   return (
-    <div className='md:pt-10 px-3  bg-blue-200'>
+    <div className='md:pt-10 py-16 px-3  bg-blue-200'>
 
          <h1 className='text-center pt-20 md:pt-10'> <span className='md:text-2xl text-xl  text-[#7991a2]   font-bold '> Made for Humans</span> </h1>
          <h1 className='md:text-5xl md:pb-8 hidden md:block text-center text-[#093554] md:pt-4  tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > Developer-first </h1>

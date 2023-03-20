@@ -1,4 +1,6 @@
 import Partnerslogo from "../images/yangonew.png"
+import Nurse from "../images/nursenew.png"
+
 
 export const navLinks = [
     {
@@ -143,3 +145,41 @@ export const footerLinks = [
     ],
   },
 ];
+
+
+export const testimonials = [
+    {
+      id: 0,
+      title: "Nurse",
+      name: " Mabel Ofori",
+      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+       image: Nurse,
+    },
+  
+    {
+      id: 1,
+      name: "Esther Ofosu",
+      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+      title: "Administrator",
+      image: Nurse,
+    },
+    {
+      id: 2,
+      title: "Accountant",
+      name: " Elton Ofori",
+      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+      image: Nurse,
+    },
+    {
+      id: 3,
+      title: "Medical Doctor",
+      name: "Micheal Otoo",
+      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+    
+    image: Nurse,
+    },
+  
+  
+  ];
+  
+  

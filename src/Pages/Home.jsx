@@ -47,7 +47,12 @@ const Home = () => {
         <Developers/>
       </div>
 
-      <div>
+      <div className='md:px-48 md:py-32 py-48 bg-slate-100  '>
+        <div className='flex justify-center items-center'>
+        <h1 className="text-2xl  md:pb-5   md:pt-0 px-8  md:text-4xl  text-center text-[#080357] font-semibold "> Our customers love <br className="md:hidden"/> what we do</h1>
+
+        </div>
+
         <Testimonials/>
          </div>
 
