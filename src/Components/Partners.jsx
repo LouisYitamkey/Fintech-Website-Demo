@@ -11,8 +11,6 @@ function Partners() {
  <img className="w-24  " src={partner.image}/>
   
   
-  
-  
   </div>
             
       

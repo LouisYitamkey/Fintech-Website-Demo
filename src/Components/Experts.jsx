@@ -67,6 +67,7 @@ const Experts = () => {
         </div>
 
             {/* Button  */}
+            {/* Change code for buttons to use resusable components */}
 
             <div className=' hidden md:flex justify-center   mx-5 md:mx-0 items-center space-x-5'>
             <div className='pt-10 md:pb-24'>

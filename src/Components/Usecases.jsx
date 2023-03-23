@@ -4,7 +4,7 @@ import Ecommerce from '../images/e-commerce.svg'
 import Finance from '../images/finance.svg'
 
 
-const Usecases = () => {
+const Usecases = ( ) => {
   return (
     <div className='py-20 md:pt-32 md:px-52 md:pb-36 bg-blue-500 w-full'>
 

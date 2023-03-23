@@ -37,6 +37,7 @@ const Homehero = () => {
 
 
      {/* For Desktop */}
+     
 <div className='hidden md:block'>
 
 <div className='flex  space-x-5'>
@@ -51,6 +52,8 @@ const Homehero = () => {
     </div>
 
 </div>
+
+
 {/* For Mobile */}
 <div className='pt-10 pb-10 md:hidden'>
     <div className='w-full h-full mb-5 px-3'>
