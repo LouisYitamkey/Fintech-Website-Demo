@@ -17,7 +17,7 @@ const items = [
     label: (
       <div className='pb-3 pt-3'>
            <a className='mx-10 pb-10' target="_blank" rel="noopener noreferrer" href="">
-        2nd menu item
+        2nd menu itemm
       </a>
 
       </div>
