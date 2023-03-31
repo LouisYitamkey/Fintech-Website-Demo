@@ -39,8 +39,9 @@ const Navbar = () => {
 
 <Productsnavbar />
 <Industriesnavbar/>
-<Developersnavbar/>
 <Companynavbar/>
+<Developersnavbar/>
+
 
 
 </ul>

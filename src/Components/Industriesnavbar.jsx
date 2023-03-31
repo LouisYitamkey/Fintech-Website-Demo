@@ -4,8 +4,8 @@ const items = [
     key: '1',
     label: (
         <div className='pb-3 pt-3'>
-           <a className='mx-10 pb-10' target="_blank" rel="noopener noreferrer" href="">
-        1st menu item
+           <a className='mx-6 pb-10' target="_blank" rel="noopener noreferrer" href="">
+           Business As a Service
       </a>
 
       </div>
@@ -15,8 +15,8 @@ const items = [
     key: '2',
     label: (
         <div className='pb-3 pt-3'>
-           <a className='mx-10 pb-10' target="_blank" rel="noopener noreferrer" href="">
-        2nd menu item
+           <a className='mx-6 pb-10' target="_blank" rel="noopener noreferrer" href="">
+      Investment As a Service
       </a>
 
       </div>
@@ -26,8 +26,8 @@ const items = [
     key: '3',
     label: (
         <div className='pb-3 pt-3'>
-           <a className='mx-10 pb-10' target="_blank" rel="noopener noreferrer" href="">
-        3rd menu item
+           <a className='mx-6 pb-10' target="_blank" rel="noopener noreferrer" href="">
+           Business As a Service
       </a>
 
       </div>
@@ -47,7 +47,7 @@ const Industriesnavbar = () => (
       }}
   
     >
-     <span className=' hover:cursor-pointer text-white md:text-lg'> Industries </span>
+     <span className=' hover:cursor-pointer text-white md:text-lg'> Solutions </span>
     </Dropdown>
    
   </>

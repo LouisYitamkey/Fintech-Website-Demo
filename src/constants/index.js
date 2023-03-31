@@ -58,27 +58,10 @@ export const navLinks = [
         image: Partnerslogo,
       
       },
-      {
-        id: 4,
-        title: "Resources",
-        image: Partnerslogo,
-      
-      },
-      {
-        id: 5,
-        title: "Resources",
-        image: Partnerslogo,
-      
-      },
+     
     
-    
-   
-   
+       
   ];
-  
-
-
-
   
 export const footerLinks = [
   {
@@ -148,35 +131,34 @@ export const footerLinks = [
 
 
 export const testimonials = [
-    {
-      id: 0,
-      title: "Nurse",
-      name: " Mabel Ofori",
-      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
-       image: Nurse,
-    },
+
+  
   
     {
-      id: 1,
-      name: "Esther Ofosu",
-      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
-      title: "Administrator",
+      name: " Mabel Ofori",
+      testimony: "TrueLayer’s APIs are amazingly simple to work with. We got up and running in 3 days..",
       image: Nurse,
+      title: "Product Manager",
+      company: "credit mall"
+
     },
+
     {
-      id: 2,
-      title: "Accountant",
+   
       name: " Elton Ofori",
-      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+      testimony: "TrueLayer’s APIs are amazingly simple to work with. We got up and running in 3 days.",
       image: Nurse,
+      title: "Tech Lead",
+      company: "credit mall"
     },
+
     {
-      id: 3,
-      title: "Medical Doctor",
-      name: "Micheal Otoo",
-      testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
     
-    image: Nurse,
+      name: "Micheal Otoo",
+      testimony: "TrueLayer's APIs are robust and developer friendly. We started seeing benefits ",
+      image: Nurse,
+      title: "Full-stack Developer",
+      company: "credit mall"
     },
   
   
