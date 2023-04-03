@@ -38,9 +38,6 @@ export default function Form() {
         message: "",
       });
 
-    
-      
-
       setFormSubmitted(false);
 
      setTimeout(()=>{
