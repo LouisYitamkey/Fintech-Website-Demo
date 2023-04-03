@@ -46,9 +46,11 @@ const items = [
     key: '4',
     label: (
       <div className='pb-3 pt-3'>
-           <a className='mx-6 pb-10' target="_blank" rel="noopener noreferrer" href="">
-           <i class="fa-sharp  text-slate-400 fa-solid fa-square-check fa-lg"></i> &nbsp; <span className='text-blue-400  font-semibold'> KYC</span>
-      </a>
+          
+        <NavLink className='mx-6 pb-10' to='/Kyc'> 
+        
+        <i class="fa-sharp  text-slate-400 fa-solid fa-square-check fa-lg"></i> &nbsp; <span className='text-blue-400  font-semibold '> KYC</span>
+        </NavLink>
 
       </div>
     ),
