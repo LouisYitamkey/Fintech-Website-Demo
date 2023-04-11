@@ -5,6 +5,14 @@ import Kycvideo from '../video/kyc.webm'
 import Button from '@mui/material/Button';
 import { BiChevronRight } from "react-icons/bi";
 import Bankauth from '../Components/Bankauth';
+import Automation from '../Components/Automation';
+import Intuitive from '../Components/Intuitive';
+import { FeaturesCards } from '../Components/Featurescards';
+import { GrowthCards } from '../Components/Growthcards';
+import Footer from '../Components/Footer';
+import Explorecards from '../Components/Explorecards';
+
+
 
 const Kyc = () => {
   return (
@@ -86,6 +94,31 @@ const Kyc = () => {
 <div>
 <Bankauth />
 </div>
+
+<div>
+  <Automation/>
+</div>
+
+<div>
+<Intuitive />
+</div>
+
+<div>
+<FeaturesCards />
+</div>
+
+<div className='bg-violet-500'>
+<GrowthCards />
+</div>
+
+<div>
+<Explorecards />
+</div>
+
+<div>
+<Footer />
+</div>
+
     
 </div>
 
