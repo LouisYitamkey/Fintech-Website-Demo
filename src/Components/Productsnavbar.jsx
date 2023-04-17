@@ -9,7 +9,7 @@ const items = [
     key: '1',
     label: (
       <div className='pb-3 pt-3 '>
-        <NavLink className='mx-6 pb-10' to='/DigitalLending'> 
+        <NavLink className='mx-6 pb-10' to='/digitalLending'> 
         
         <i class="fa-solid text-slate-400 fa-address-card fa-lg"></i>&nbsp; <span className='  font-semibold '> Digital Lending API</span>
         </NavLink>
@@ -47,7 +47,7 @@ const items = [
     label: (
       <div className='pb-3 pt-3'>
           
-        <NavLink className='mx-6 pb-10' to='/Kyc'> 
+        <NavLink className='mx-6 pb-10' to='/kyc'> 
         
         <i class="fa-sharp  text-slate-400 fa-solid fa-square-check fa-lg"></i> &nbsp; <span className='  font-semibold '> KYC</span>
         </NavLink>

@@ -7,23 +7,14 @@ import Kyc from "./Pages/Kyc";
 function App() {
   return (
     <BrowserRouter>
-    <div>
-    <Navbar/>
-
-    </div>
- 
+      <div>
+        <Navbar/>
         <Routes>
-
           <Route path="/" element={ <Home/> } />
-          <Route path="/DigitalLending" element={ <DigitalLending/> } />
-          <Route path="/Kyc" element={ <Kyc/> } />
-      
-          
-          
+          <Route path="/digitalLending" element={ <DigitalLending/> } />
+          <Route path="/kyc" element={ <Kyc/> } />
         </Routes>
-
-      
-    
+      </div>
     </BrowserRouter>
   );
 }
