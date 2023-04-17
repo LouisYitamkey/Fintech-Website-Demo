@@ -37,7 +37,7 @@ const Developers = () => {
      <Button className=" bg-[#f7ab1b] border-[#f7ab1b] text-base  hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined">Get In Touch <BiChevronRight size={30} /> </Button>
      </div>
      <div className='pt-20 pb-20'>
-     <Button className=" border border-white text-base hover:border-white hover:bg-blue-300  text-white px-6 py-3 " variant="outlined"> Start Building  </Button>
+     <Button className=" border border-white text-base hover:border-white hover:bg-blue-300  text-white px-6 py-3 " variant="outlined"> Start Buildingg  </Button>
 
      </div>
 
