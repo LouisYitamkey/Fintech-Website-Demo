@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbarmenu from '../components/Navbar'
 import Homehero from '../Components/HomeHero'
 import Homesecondhero from '../Components/Homesecondhero'
 import Homethirdhero from '../Components/Homethirdhero'
@@ -9,7 +10,7 @@ import Developers from '../Components/Developers'
 import Global from '../Components/Global'
 
 import Footer from '../Components/Footer'
-import Navbar from '../components/Navbar'
+
 
 
 
@@ -20,7 +21,7 @@ const Home = () => {
   return (
     <div>
       <div>
-      <Navbar />
+      <Navbarmenu />
       </div>
         <div>
         <Homehero/>

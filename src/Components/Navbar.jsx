@@ -1,10 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-
-
-import Button from '@mui/material/Button';
-import { BiChevronRight } from "react-icons/bi";
 import Productsnavbar from "./Productsnavbar";
 import Industriesnavbar from "./Industriesnavbar";
 import Developersnavbar from "./Developersnavbar";
@@ -15,7 +11,7 @@ import ResponsiveDialog from "./ResponsiveDialog";
 
 
 
-const Navbar = () => {
+const Navbarmenu = () => {
   const [toggle, setToggle] = useState(false);
 
 
@@ -78,4 +74,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbarmenu;
