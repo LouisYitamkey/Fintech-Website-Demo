@@ -111,10 +111,10 @@ import {
 
 {/* For Mobile */}
 <div className=' pt-10 md:hidden'>
-    <div className='w-full h-full  '>
+    <div className='w-full h-full mb-5  '>
     <button  class="fluid ui button orange ">  Contact Us </button>
     </div>
-    <div className='w-full h-full '>
+    <div className='w-full h-full mb-5 '>
     <button  class="fluid ui button blue "> Documentation </button>
     </div>
 

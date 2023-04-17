@@ -38,7 +38,7 @@ const Explorecards = () => {
         <div>
         <div className=''>
                
-               <img  className='w-16 bg-slate-100 mt-10 md:mt-4  mb-4 rounded-lg' src={Ecommerce}/>
+               <img  className='w-16 bg-slate-100 mt-10 md:mt-6  mb-4 rounded-lg' src={Ecommerce}/>
                <p className='font-bold text-xl  '> E-commerce</p>
                <p className='pt-3 pb-2 md:pb-4 tracking-wide text-lg '>Elevate the entire trading experience <br className=' md:block'/> with instant deposits and withdrawals.</p>
                <p className='text-xl text-decoration underline md:no-underline decoration-1  md:hover:underline underline-offset-8  text-[#f7ab1b]  pb-5 md:pb-0 pt-5  font-bold hover:cursor-pointer md:pt-2'> Explore Commerce  <i class="fa-solid fa-chevron-right"></i></p>
