@@ -9,6 +9,7 @@ import Developers from '../Components/Developers'
 import Global from '../Components/Global'
 
 import Footer from '../Components/Footer'
+import Navbar from '../components/Navbar'
 
 
 
@@ -18,6 +19,9 @@ import Footer from '../Components/Footer'
 const Home = () => {
   return (
     <div>
+      <div>
+      <Navbar />
+      </div>
         <div>
         <Homehero/>
 
