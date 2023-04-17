@@ -36,7 +36,7 @@ const items = [
     label: (
       <div className='pb-3 pt-3'>
            <a className='mx-6 pb-10' target="_blank" rel="noopener noreferrer" href="">
-           <i class="fa-solid text-slate-400 fa-scale-balanced fa-lg"></i>&nbsp; <span className='  font-semibold'> Capital by API</span>
+           <i class="fa-solid text-slate-400 fa-scale-balanced fa-lg"></i>&nbsp; <span className='  font-semibold'> Capital by APII</span>
       </a>
 
       </div>
