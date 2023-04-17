@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbarmenu from '../components/Navbar';
-
 import Nextgen from '../Components/Nextgen';
 import Consumerloans from '../Components/Consumerloans';
 import Consumerlending from '../Components/Consumerlending';
@@ -11,11 +9,7 @@ import Footer from '../Components/Footer';
 
     return (
    <>
-   <div>
-   <Navbarmenu />
-
-   </div>
-  
+   
    
    <div>
    <Nextgen />

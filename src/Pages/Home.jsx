@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbarmenu from '../components/Navbar'
 import Homehero from '../Components/HomeHero'
 import Homesecondhero from '../Components/Homesecondhero'
 import Homethirdhero from '../Components/Homethirdhero'
@@ -16,13 +15,9 @@ import Footer from '../Components/Footer'
 
 
 
-
 const Home = () => {
   return (
     <div>
-      <div>
-      <Navbarmenu />
-      </div>
         <div>
         <Homehero/>
 
