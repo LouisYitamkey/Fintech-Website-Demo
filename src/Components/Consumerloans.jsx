@@ -27,7 +27,7 @@ const Consumerloans = () => {
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-       <span className='font-normal md:pb-5   text-lg'>Powered by machine learning, we’ve built a name-matching engine on <br className='hidden md:block'/> top of open banking rails. This allows you to instantly and accurately <br/> verify users, without having to process streams of raw bank data yourself. </span>
+       <span className='font-normal md:pb-5 text-[#849aa9]   text-lg'>Powered by machine learning, we’ve built a name-matching engine on <br className='hidden md:block'/> top of open banking rails. This allows you to instantly and accurately <br/> verify users, without having to process streams of raw bank data yourself. </span>
 
 
        <div className=' '> 

@@ -22,7 +22,7 @@ const Bankauth = () => {
 
 </div>
 
- <p className='font-normal pl-3 md:pl-0    text-lg'>  Guarantee source and destination of funds. Verification introduces Strong Customer Authentication checks from the bank into your verification flow to combat identity theft.
+ <p className='font-normal pl-3 md:pl-0 text-[#849aa9]    text-lg'>  Guarantee source and destination of funds. Verification introduces Strong Customer Authentication checks from the bank into your verification flow to combat identity theft.
   </p>
   <div>
 

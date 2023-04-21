@@ -9,13 +9,13 @@ export default function Testimonials() {
         {testimonials.map((testimonial, index) => (
           <div key={index}>
             <div className="flex justify-center items-center"> 
-            <ImQuotesLeft size={30} color="white"/>
+            <ImQuotesLeft size={30} color="black"/>
 
             </div>
          
 
            <div className=" flex justify-center items-center">
-             <p className=" text-lg py-10 text-white font-normal">{testimonial.testimony}</p>
+             <p className=" text-lg py-10  font-normal">{testimonial.testimony}</p>
            </div>
            
          <div className=" flex justify-center items-center"> 
@@ -23,14 +23,14 @@ export default function Testimonials() {
          </div>
 
          <div className="flex justify-center items-center">
-         <p className="py-5 md:font-medium text-lg text-white "> {testimonial.name}</p>
+         <p className="py-5 md:font-medium text-lg "> {testimonial.name}</p>
          </div>
          <div className="flex justify-center items-center">
-         <p className="text-white "> {testimonial.title}</p>
+         <p className=" "> {testimonial.title}</p>
          </div>
          
          <div className="flex justify-center items-center">
-         <p className="py-5 font-semibold text-white  text-2xl "> {testimonial.company}</p>
+         <p className="py-5 font-semibold   text-2xl "> {testimonial.company}</p>
          </div>
          
 

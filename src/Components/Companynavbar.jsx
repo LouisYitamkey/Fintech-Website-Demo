@@ -47,7 +47,7 @@ const Companynavbar = () => (
       }}
   
     >
-     <span className=' hover:cursor-pointer text-white md:text-lg'> Use Cases </span>
+     <span className=' hover:cursor-pointer  md:text-lg'> Use Cases </span>
     </Dropdown>
    
   </>

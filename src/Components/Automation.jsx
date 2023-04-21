@@ -27,13 +27,13 @@ const Automation = () => {
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-       <span className='font-normal   text-lg'>Powered by machine learning, we’ve built a name-matching engine on <br className='hidden md:block'/> top of open banking rails. This allows you to instantly and accurately <br/> verify users, without having to process streams of raw bank data yourself. </span>
+       <span className='font-normal text-[#849aa9]   text-lg'>Powered by machine learning, we’ve built a name-matching engine on <br className='hidden md:block'/> top of open banking rails. This allows you to instantly and accurately <br/> verify users, without having to process streams of raw bank data yourself. </span>
 
        <div className=' '> 
        {/* Features section */}
 
        <div>
-<p className='font-normal pl-3 md:pl-0 md:pt-0 pt-6 md:pb-0  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Automate verification checks  </p>
+<p className='font-normal pl-3 md:pl-0 md:pt-5 pt-6 md:pb-0  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Automate verification checks  </p>
 </div>
 <div>
 <p className='font-normal pl-3 md:pl-0 md:pt-4  pt-4  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Instant match logic  </p>

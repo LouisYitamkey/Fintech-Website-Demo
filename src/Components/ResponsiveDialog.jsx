@@ -30,7 +30,7 @@ export default function ResponsiveDialog() {
 
   return (
     <div className=''>
-     <Button onClick={handleClickOpen} className="font-bold md:font-normal border border-white hover:bg-[#f38d00] hover:border-[#f38d00]  text-white md:text-lg  py-2 " variant="outlined">Book a Demo <BiChevronRight size={20} /> </Button>
+     <Button onClick={handleClickOpen} className=" text-[#f7ab1b] border-[#f7ab1b] text-base hover:text-white hover:border-[#f7ab1b] hover:bg-[#f38d00]   py-2 " variant="outlined">Book a Demo <BiChevronRight size={30} /> </Button>
       <Dialog
        
         open={open}

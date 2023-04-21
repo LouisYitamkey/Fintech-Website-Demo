@@ -47,7 +47,7 @@ const Developersnavbar = () => (
       }}
   
     >
-     <span className=' hover:cursor-pointer text-white md:text-lg'> Developers </span>
+     <span className=' hover:cursor-pointer  md:text-lg'> Developers </span>
     </Dropdown>
    
   </>

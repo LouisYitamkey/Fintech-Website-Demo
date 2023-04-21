@@ -112,7 +112,7 @@ import {
       <Container className=' py-10 md:py-28' size="xl" py="xl">
        
   
-        <Title order={2} className={`${classes.title} text-white `} ta="left" mt="sm">
+        <Title order={2} className={`${classes.title}  `} ta="left" mt="sm">
         Your platform for growth
         </Title>
   
@@ -123,7 +123,7 @@ import {
         </SimpleGrid>
 
         <div className=' pt-14  hidden md:flex justify-center items-center'>
-        <Button className=" bg-[#f7ab1b] border-[#f7ab1b]  text-base hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined"> Get In Touch <BiChevronRight size={30} /> </Button>
+        <Button className=" bg-[#f7ab1b] border-[#f7ab1b]  text-base hover:border-[#f7ab1b] hover:bg-[#f38d00] text-white   px-6 py-2 " variant="outlined"> Get In Touch <BiChevronRight size={30} /> </Button>
         </div>
 
      <div className='w-full h-full mt-10 mb-5 md:hidden'>

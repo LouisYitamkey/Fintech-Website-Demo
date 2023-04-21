@@ -8,23 +8,23 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Consumerlending = () => {
   return (
-    <div className='w-full h-full  md:mt-0 bg-blue-500    '>
+    <div className='w-full h-full  md:mt-0   '>
     <section id="home" className={`flex md:px-28  md:flex-row  flex-col ${styles.paddingY}`}>
 <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
   <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
 <div>
 
 
- <h1 className=' hidden md:block md:text-6xl  text-white md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[55px] font-extrabold '>  Control And Optimize Complex Lending Decisions.  </h1>
+ <h1 className=' hidden md:block md:text-6xl   md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[55px] font-extrabold '>  Control And Optimize Complex Lending Decisions.  </h1>
 
  <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80  ' autoPlay muted loop src={DigitalLendingvideo} />
 
 </div>
-<h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Control And Optimize Complex Lending Decisions.  </h1>
-<p className='font-normal pl-3 md:hidden text-white   text-lg'>Utilize Pavelon’s channel partners like payment apps,  payroll services, financial comparison websites, CRM  solutions, or tax apps for effective distribution at lower  costs. Get pre-verified leads and offers. </p>
-<span className='font-normal hidden md:block  text-white  text-lg'>Utilize Pavelon’s channel partners—like payment apps, <br/> payroll services, financial comparison websites, CRM <br/> solutions, or tax apps for effective distribution at lower <br/> costs. Get pre-verified leads and offers. </span>
+<h1 className='md:text-7xl md:hidden pb-10 pt-2 text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Control And Optimize Complex Lending Decisions.  </h1>
+<p className='font-normal pl-3 md:hidden  text-[#849aa9]   text-lg'>Utilize Pavelon’s channel partners like payment apps,  payroll services, financial comparison websites, CRM  solutions, or tax apps for effective distribution at lower  costs. Get pre-verified leads and offers. </p>
+<span className='font-normal hidden md:block  text-[#849aa9]   text-lg'>Utilize Pavelon’s channel partners—like payment apps, <br/> payroll services, financial comparison websites, CRM <br/> solutions, or tax apps for effective distribution at lower <br/> costs. Get pre-verified leads and offers. </span>
 
  <div className='md:mt-10 mt-10 mb-5 '> 
 

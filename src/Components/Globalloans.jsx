@@ -18,7 +18,7 @@ const Globalloans = () => {
 
 </div>
 
- <p className='font-normal pl-3 md:pl-0    text-lg'>Use our global open banking platform and local expertise to connect to the largest banks, neobanks, and digital  world.
+ <p className='font-normal pl-3 md:pl-0 text-[#849aa9]    text-lg'>Use our global open banking platform and local expertise to connect to the largest banks, neobanks, and digital  world.
   </p>
   <div>
 

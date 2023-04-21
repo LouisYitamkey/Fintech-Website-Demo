@@ -74,7 +74,7 @@ const Experts = () => {
      <Button className=" bg-[#f7ab1b] border-[#f7ab1b] text-base  hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined">Get In Touch <BiChevronRight size={30} />  </Button>
      </div>
      <div className='pt-10  md:pb-24'>
-     <Button className=" border border-[#f7ab1b] text-base hover:border-white hover:text-white hover:bg-blue-300  text-[#f7ab1b] px-6 py-3 " variant="outlined"> Start Building  </Button>
+     <Button className="text-[#f7ab1b] border-[#f7ab1b] text-base hover:text-white hover:border-[#f7ab1b] hover:bg-[#f38d00]  px-6 py-3 " variant="outlined"> Start Building  </Button>
 
      </div>
       </div>

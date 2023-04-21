@@ -29,13 +29,13 @@ const Kycsecondhero = () => {
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-       <span className='font-normal   text-lg'>Send your conversion rate into the stratosphere by enabling your users <br className='hidden md:block'/> to confirm account ownership using a simple fingerprint or faceID. <br/> Automate checks through a single API call so <br className='md:hidden'/> your compliance team can <br className='hidden md:block'/> focus on the more important things. <br/> </span>
+       <span className='font-normal text-[#849aa9]   text-lg'>Send your conversion rate into the stratosphere by enabling your users <br className='hidden md:block'/> to confirm account ownership using a simple fingerprint or faceID. <br/> Automate checks through a single API call so <br className='md:hidden'/> your compliance team can <br className='hidden md:block'/> focus on the more important things. <br/> </span>
 
        <div className=' '> 
        {/* Features section */}
 
        <div>
-<p className='font-normal pl-3 md:pl-0 md:pt-0 pt-6 md:pb-0  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; 90% of good actors verified in 3 clicks </p>
+<p className='font-normal pl-3 md:pl-0 md:pt-5 pt-6 md:pb-0  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; 90% of good actors verified in 3 clicks </p>
 </div>
 <div>
 <p className='font-normal pl-3 md:pl-0 md:pt-4  pt-4  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Accelerate KYC and AML checks</p>

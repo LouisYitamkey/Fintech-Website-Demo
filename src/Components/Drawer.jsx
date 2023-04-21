@@ -13,7 +13,7 @@ return (
   
     <IconButton size='large' edge='start' color='inherit' arial-label='logo' onClick={()=> setIsDrawerOpen(true)}  >
        
-        <VscMenu className="icon-style" />
+        <VscMenu className="icon-style" color='black' />
 
 
     </IconButton>

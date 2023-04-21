@@ -31,7 +31,7 @@ const Homethirdhero = () => {
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-       <span className='font-normal   text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate your AML and KYC    <br className='hidden md:block'/> processes.</span>
+       <span className='font-normal  text-[#849aa9]  text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate your AML and KYC    <br className='hidden md:block'/> processes.</span>
 
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
