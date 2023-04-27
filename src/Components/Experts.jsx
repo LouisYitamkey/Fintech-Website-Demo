@@ -9,13 +9,13 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Experts = () => {
   return (
-    <div>
+    <div className='bg-[#11243e]  text-white'>
         <div className='flex justify-center items-center  pt-24 md:pt-28'>
         <h1> <span className='md:text-2xl text-xl  text-[#7991a2]   font-bold '> Why Truecaller?</span> </h1>
         </div>
 
-        <h1 className='md:text-5xl md:pb-14 hidden md:block text-center text-[#093554] md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > We're open banking experts </h1>
-        <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-[#093554] text-4xl text-center md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> We're open <br/> banking  experts </h1>
+        <h1 className='md:text-5xl md:pb-14 hidden md:block text-center text-white md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > We're open banking experts </h1>
+        <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl text-center md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> We're open <br/> banking  experts </h1>
      <div>
 
      </div>
@@ -24,11 +24,11 @@ const Experts = () => {
             <div className='flex-row justify-center items-center'>
             <div className='flex justify-center items-center'>
 
-                <CountUp className='text-5xl  md:pl-12 text-blue-400 text-center font-bold ' start={10} delay={2} end={69}/> <span className='text-5xl text-blue-400 text-center font-bold'>
+                <CountUp className='text-5xl  md:pl-12  text-center font-bold ' start={10} delay={2} end={69}/> <span className='text-5xl text-center font-bold'>
                 %</span>
             </div>
             <div className='flex justify-center items-center '>
-                <p className=' md:pt-6 pt-6 pb-24 md:pb-0 text-[#093554]   '> of open banking traffic in <br/> the UK, Ireland, and Spain</p>
+                <p className=' md:pt-6 md:pl-9 pt-6 pb-24 md:pb-0 text-slate-400  '> of open banking traffic in <br/> the UK, Ireland, and Spain</p>
             </div>
             </div>
          
@@ -36,11 +36,11 @@ const Experts = () => {
             <div className='flex-row justify-center items-center'>
             <div className='flex justify-center items-center'>
               
-                <CountUp className='text-5xl  md:pl-12 text-blue-400 text-center font-bold ' start={20} delay={2} end={60}/> <span className='text-5xl text-blue-400 text-center font-bold'>
+                <CountUp className='text-5xl  md:pl-12  text-center font-bold ' start={20} delay={2} end={60}/> <span className='text-5xl  text-center font-bold'>
                 %</span>
             </div>
             <div className='flex justify-center items-center '>
-                <p className=' md:pt-6  pt-6 pb-24 md:pb-0   py-6 md:py-0 text-[#093554] text-center '> of open banking traffic in <br/> the UK, Ireland, and Spain</p>
+                <p className=' md:pt-6  pt-6 pb-24 md:pb-0 md:pl-9   py-6 md:py-0 text-slate-400  text-center '> of open banking traffic in <br/> the UK, Ireland, and Spain</p>
             </div>
             </div>
 
@@ -48,11 +48,11 @@ const Experts = () => {
 
             <div className='flex-row justify-center items-center'>
             <div className='flex justify-center items-center'>
-            <CountUp className='text-5xl  md:pl-12 text-blue-400 text-center font-bold ' start={30} delay={2} end={90}/> <span className='text-5xl text-blue-400 text-center font-bold'>
+            <CountUp className='text-5xl  md:pl-12  text-center font-bold ' start={30} delay={2} end={90}/> <span className='text-5xl  text-center font-bold'>
                 %</span>
             </div>
             <div className='flex justify-center items-center '>
-                <p className='  py-6 md:py-0 md:pt-6  pt-6 pb-24 md:pb-0  text-[#093554] text-center '> of open banking traffic in <br/> the UK, Ireland, and Spain</p>
+                <p className='  py-6 md:py-0 md:pt-6  pt-6 pb-24 md:pb-0 md:pl-9  text-slate-400  text-center '> of open banking traffic in <br/> the UK, Ireland, and Spain</p>
             </div>
             </div>
 
@@ -71,10 +71,10 @@ const Experts = () => {
 
             <div className=' hidden md:flex justify-center   mx-5 md:mx-0 items-center space-x-5'>
             <div className='pt-10 md:pb-24'>
-     <Button className=" bg-[#f7ab1b] border-[#f7ab1b] text-base  hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined">Get In Touch <BiChevronRight size={30} />  </Button>
+            <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " variant="outlined"> Get in Touch <BiChevronRight size={30} /> </Button>
      </div>
      <div className='pt-10  md:pb-24'>
-     <Button className="text-[#f7ab1b] border-[#f7ab1b] text-base hover:text-white hover:border-[#f7ab1b] hover:bg-[#f38d00]  px-6 py-3 " variant="outlined"> Start Building  </Button>
+     <Button className=" text-white border-sky-600 text-base hover:text-white  hover:bg-sky-600   px-6 py-3 " variant="outlined"> Start Building  </Button>
 
      </div>
       </div>

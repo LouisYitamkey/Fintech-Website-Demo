@@ -8,7 +8,7 @@ import Testimonials from './Testimonials';
 
 const Developers = () => {
   return (
-    <div className='md:pt-10 py-16   px-3   '>
+    <div className='md:pt-10 py-16   px-3 bg-slate-100   '>
 
          <h1 className='text-center pt-20 md:pt-20'> <span className='md:text-2xl text-xl text-[#7991a2]     font-bold '> Made for Humans</span> </h1>
          <h1 className='md:text-5xl md:pb-8 hidden md:block text-center  md:pt-4  tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > Developer-first </h1>
@@ -34,10 +34,10 @@ const Developers = () => {
   
 <div className='flex justify-center items-center  space-x-5'>
      <div className='pt-20 pb-20'>
-     <Button className=" bg-[#f7ab1b] border-[#f7ab1b] text-base  text-white hover:border-[#f7ab1b] hover:bg-[#f38d00]   px-6 py-2 " variant="outlined">Get In Touch <BiChevronRight size={30} /> </Button>
+     <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " variant="outlined"> Get in Touch <BiChevronRight size={30} /> </Button>
      </div>
      <div className='pt-20 pb-20'>
-     <Button className=" text-[#f7ab1b] border-[#f7ab1b] text-base hover:text-white hover:border-[#f7ab1b] hover:bg-[#f38d00]   px-6 py-3 " variant="outlined"> Start Building  </Button>
+     <Button className="  border-sky-600 text-base hover:text-white  hover:bg-sky-600   px-6 py-3 " variant="outlined"> Start Building  </Button>
 
      </div>
 

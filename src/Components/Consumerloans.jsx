@@ -7,7 +7,7 @@ import Secondvideo from '../video/secondvideo.mp4'
 const Consumerloans = () => {
 
   return (
-    <div className='w-full h-full '>
+    <div className='w-full h-full  '>
     <section id="home" className={`flex md:px-28  md:flex-row  flex-col  md:py-20  ` }>
      <div className='md:pl-28 hidden md:block md:mt-16'>
      <video  className='w-80 border-8    rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
@@ -41,7 +41,7 @@ const Consumerloans = () => {
 </div>
       
 <div className=' hidden md:block mt-10 md:mt-10 space-x-5 '>
-<Button className=" bg-[#f7ab1b] border-[#f7ab1b]  text-base hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined"> Contact Us <BiChevronRight size={30} /> </Button>
+<Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " variant="outlined"> Get in Touch <BiChevronRight size={30} /> </Button>
 <Button className=" text-[#f7ab1b] border-[#f7ab1b] hover:text-white hover:border-[#f7ab1b] hover:bg-[#f38d00] text-base  px-6 py-3 " variant="outlined"> Documentation  </Button>
 </div>
 
