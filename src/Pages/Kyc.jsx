@@ -41,7 +41,7 @@ const Kyc = () => {
 <div className=' hidden md:block mt-10 md:mt-10 space-x-5 '>
 
      <Button className=" bg-sky-600 hover:bg-sky-500 text-base     text-white px-6 py-3 " > Start Building <BiChevronRight size={25} /> </Button>
-     <Button className="   text-base hover:text-white text-white  hover:bg-sky-600  px-6 py-3.5 " variant="outlined"> Start Building  </Button>
+     <Button className="   text-base hover:text-white text-white  hover:bg-sky-600  px-6 py-3.5 " variant="outlined"> Contact Us  </Buttogi
 </div>
 
 {/* For Mobile */}
