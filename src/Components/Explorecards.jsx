@@ -6,7 +6,7 @@ import Finance from '../images/finance.svg'
 const Explorecards = () => {
 
   return (
-    <div className='py-12 md:py-20 md:pt-16 md:px-52 md:pb-20  w-full'>
+    <div className='py-12 md:py-20 md:pt-16 md:px-52 md:pb-28  w-full'>
 
     <div className='pl-3 md:pl-0'>
 
@@ -24,12 +24,12 @@ const Explorecards = () => {
         <div>
             
         </div>
-        <p className='text-xl text-decoration  decoration-1 underline md:no-underline  md:hover:underline underline-offset-8  text-[#f7ab1b]  pb-5 md:pb-0 pt-5 font-bold  hover:cursor-pointer md:pt-2'> Explore Crypto  <i class="fa-solid fa-chevron-right"></i></p>
+        <p className='text-xl text-decoration  decoration-1 underline md:no-underline  md:hover:underline underline-offset-8  text-sky-500  pb-5 md:pb-0 pt-5   hover:cursor-pointer md:pt-2'> Explore Crypto  <i class="fa-solid fa-chevron-right"></i></p>
 
         <img  className='w-16 md:mt-16 mt-10  bg-slate-100 mb-4 rounded-lg' src={Finance}/>
         <p className='font-bold text-xl  '> Financial Services</p>
         <p className='pt-3 pb-2 md:pb-4 text-lg tracking-wide '>Elevate the entire trading experience <br/> with instant deposits and withdrawals.</p>
-        <p className='text-xl text-decoration  decoration-1 underline md:no-underline  md:hover:underline underline-offset-8  text-[#f7ab1b]  pb-5 md:pb-0 pt-5 font-bold  hover:cursor-pointer md:pt-2'> Explore Finance  <i class="fa-solid fa-chevron-right"></i></p>
+        <p className='text-xl text-decoration  decoration-1 underline md:no-underline  md:hover:underline underline-offset-8  text-sky-500   pb-5 md:pb-0 pt-5  hover:cursor-pointer md:pt-2'> Explore Finance  <i class="fa-solid fa-chevron-right"></i></p>
    
         </div>
          
@@ -41,14 +41,14 @@ const Explorecards = () => {
                <img  className='w-16 bg-slate-100 mt-10 md:mt-6  mb-4 rounded-lg' src={Ecommerce}/>
                <p className='font-bold text-xl  '> E-commerce</p>
                <p className='pt-3 pb-2 md:pb-4 tracking-wide text-lg '>Elevate the entire trading experience <br className=' md:block'/> with instant deposits and withdrawals.</p>
-               <p className='text-xl text-decoration underline md:no-underline decoration-1  md:hover:underline underline-offset-8  text-[#f7ab1b]  pb-5 md:pb-0 pt-5  font-bold hover:cursor-pointer md:pt-2'> Explore Commerce  <i class="fa-solid fa-chevron-right"></i></p>
+               <p className='text-xl text-decoration underline md:no-underline decoration-1  md:hover:underline underline-offset-8  text-sky-500   pb-5 md:pb-0 pt-5   hover:cursor-pointer md:pt-2'> Explore Commerce  <i class="fa-solid fa-chevron-right"></i></p>
       
    
    
                <img  className='w-16 md:mt-16 mt-10 bg-slate-100 mb-4 rounded-lg' src={Crypto}/>
                <p className='font-bold text-xl  '> Investment Services</p>
                <p className='pt-3 pb-2 md:pb-4 text-lg tracking-wide '>Elevate the entire trading experience <br className=' md:block'/> with instant deposits and withdrawals.</p>
-               <p className='text-xl text-decoration underline md:no-underline decoration-1  md:hover:underline underline-offset-8  text-[#f7ab1b]  pb-5 md:pb-0 pt-5 font-bold hover:cursor-pointer md:pt-2'> Explore Investment  <i class="fa-solid fa-chevron-right"></i></p>
+               <p className='text-xl text-decoration underline md:no-underline decoration-1  md:hover:underline underline-offset-8  text-sky-500  pb-5 md:pb-0 pt-5  hover:cursor-pointer md:pt-2'> Explore Investment  <i class="fa-solid fa-chevron-right"></i></p>
                </div>
           
         </div>

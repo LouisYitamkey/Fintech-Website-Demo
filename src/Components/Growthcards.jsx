@@ -123,15 +123,14 @@ import {
         </SimpleGrid>
 
         <div className=' pt-14  hidden md:flex justify-center items-center'>
-        <Button className=" bg-[#f7ab1b] border-[#f7ab1b]  text-base hover:border-[#f7ab1b] hover:bg-[#f38d00] text-white   px-6 py-2 " variant="outlined"> Get In Touch <BiChevronRight size={30} /> </Button>
+        <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " > Get in Touch <BiChevronRight size={30} /> </Button>
         </div>
 
      <div className='w-full h-full mt-10 mb-5 md:hidden'>
     <button  class="fluid ui button orange ">  Get in Touch </button>
     </div>
 
-
-        
+ 
       </Container>
     );
   }

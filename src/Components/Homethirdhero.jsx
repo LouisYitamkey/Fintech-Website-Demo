@@ -51,7 +51,7 @@ const Homethirdhero = () => {
     </div>
       <p className=' md:pl-1 pl-3 text-white  hover:text-blue-300  '> Data </p>
    
-      <  BiChevronRight className='text-white' size={20} /> 
+      <  BiChevronRight className='text-blue-400' size={20} /> 
         </div>
         <span className='font-normal  text-[#849aa9] pl-12 md:pl-14 '> Account Information</span>
        
@@ -69,9 +69,9 @@ const Homethirdhero = () => {
 
   </div>
 
-<p className='text-white hover:text-blue-400 pl-3  md:pl-1  '> Verification API </p>
+<p className='text-white hover:text-sky-500 pl-3  md:pl-1  '> Verification API </p>
 
-<  BiChevronRight className='text-blue-400' size={20} /> 
+<  BiChevronRight className='text-sky-500' size={20} /> 
   </div>
   <span className='font-normal text-[#849aa9] pl-12  md:pl-14 '> Account Holder Verification</span>
  
@@ -90,7 +90,7 @@ const Homethirdhero = () => {
 
   </div>
 
-<p className='text-white hover:text-blue-400 pl-3 md:pl-1  '> Disbursement API </p>
+<p className='text-white hover:text-sky-500 pl-3 md:pl-1  '> Disbursement API </p>
 
 <  BiChevronRight className='text-blue-400' size={20} /> 
   </div>

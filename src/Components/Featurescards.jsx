@@ -105,8 +105,8 @@ import {
         </SimpleGrid>
 
         <div className=' hidden md:flex justify-center items-center mt-10 md:mt-20 space-x-5 '>
-<Button className=" bg-[#f7ab1b] border-[#f7ab1b]  text-base hover:border-[#f7ab1b] hover:bg-[#f38d00]  text-white px-6 py-2 " variant="outlined"> Contact Us <BiChevronRight size={30} /> </Button>
-<Button className=" text-[#f7ab1b] border-[#f7ab1b] hover:text-white hover:border-[#f7ab1b] hover:bg-[#f38d00] text-base  px-6 py-3 " variant="outlined"> Documentation  </Button>
+        <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " > Contact Us <BiChevronRight size={30} /> </Button>
+        <Button className=" text-black  text-base hover:text-white  hover:bg-sky-600  px-6 py-3.5 " variant="outlined"> Documentation  </Button>
 </div>
 
 {/* For Mobile */}

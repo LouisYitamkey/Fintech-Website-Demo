@@ -10,22 +10,22 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Homesecondhero = () => {
   return (
-    <div className='w-full h-full mt-12 md:mt-0 bg-[#11243e]   '>
+    <div className='w-full h-full mt-12 md:mt-0    '>
           <section id="home" className={`flex md:px-28  md:flex-row  flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
         <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
      <div>
   
     <span className='md:text-xl text-2xl pl-3   md:pl-1 text-[#7991a2]  md:font-bold '> Instant Bank Payments</span> 
-       <h1 className=' hidden md:block md:text-5xl md:pt-5 text-white md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Build better payments <br/> experiences</h1>
-       <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
+       <h1 className=' hidden md:block md:text-5xl md:pt-5  md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Build better payments <br/> experiences</h1>
+       <h1 className='md:text-7xl md:hidden pb-10 pt-2  text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-    <p className='font-normal pl-3 md:hidden  text-white  text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate  KYC    <br className='hidden md:block'/> processes.</p>
-    <span className='font-normal hidden md:block text-white   text-lg'>Onboard customers in seconds and securely access account information.  Say goodbye to manual form-filling and accelerate your AML and KYC    processes.</span>
+    <p className='font-normal pl-3 md:hidden    text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate  KYC    <br className='hidden md:block'/> processes.</p>
+    <span className='font-normal hidden md:block    text-lg'>Onboard customers in seconds and securely access account information.  Say goodbye to manual form-filling and accelerate your AML and KYC    processes.</span>
 
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
@@ -33,7 +33,7 @@ const Homesecondhero = () => {
 {/* First */}
       <div className='flex '>
         <div className='md:mr-4 ml-3 md:ml-0 mt-1 md:mt-1'>
-          <span className='text-white '> 
+          <span className='text-sky-500 '> 
           <i class="fa-solid fa-2xl fa-money-check"></i>
 
           </span>
@@ -43,7 +43,7 @@ const Homesecondhero = () => {
     <div>
       
     </div>
-      <p className=' md:pl-1 pl-3 text-white  hover:text-blue-400  '> Payments </p>
+      <p className=' md:pl-1 pl-3   hover:text-sky-500  '> Payments </p>
    
       <  BiChevronRight className='text-blue-400' size={20} /> 
         </div>
@@ -56,14 +56,14 @@ const Homesecondhero = () => {
 {/* Second */}
 <div className='flex md:mt-5  '>
   <div className='md:mr-4 ml-3 md:ml-0 mt-1'>
-  <span className='text-white'> 
+  <span className='text-sky-500'> 
           <i class="fa-solid fa-2xl fa-money-check"></i>
 
           </span>
 
   </div>
 
-<p className='text-white hover:text-blue-400 pl-3  md:pl-1  '> Payouts </p>
+<p className=' hover:text-sky-500 pl-3  md:pl-1  '> Payouts </p>
 
 <  BiChevronRight className='text-blue-400' size={20} /> 
   </div>
@@ -77,14 +77,14 @@ const Homesecondhero = () => {
 {/* third */}
 <div className='flex  md:mt-5 mt-5   '>
   <div className='md:mr-4 ml-3 md:ml-0 mt-1'>
-  <span className='text-white'> 
+  <span className='text-sky-500'> 
           <i class="fa-solid fa-2xl fa-money-check"></i>
 
           </span>
 
   </div>
 
-<p className='text-white hover:text-blue-400 pl-3 md:pl-1  '> Varibale recurring payments </p>
+<p className=' hover:text-sky-500 pl-3 md:pl-1  '> Varibale recurring payments </p>
 
 <  BiChevronRight className='text-blue-400' size={20} /> 
   </div>
@@ -97,7 +97,7 @@ const Homesecondhero = () => {
 <div className=' hidden md:block mt-10 md:mt-10 space-x-5 '>
     
 <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " variant="outlined"> Contact Us <BiChevronRight size={30} /> </Button>
-<Button className=" text-white border-sky-600 text-base hover:text-white  hover:bg-sky-600   px-6 py-3 " variant="outlined"> Documentation  </Button>
+<Button className="  border-sky-600 text-base hover:text-white  hover:bg-sky-600   px-6 py-3 " variant="outlined"> Documentation  </Button>
 </div>
 
 {/* For Mobile */}

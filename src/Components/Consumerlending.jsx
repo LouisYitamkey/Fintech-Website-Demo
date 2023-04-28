@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from '../style'
-import Secondvideo from '../video/secondvideo.mp4'
+
 import DigitalLendingvideo from '../video/digitallendingvideo.webm'
 import Button from '@mui/material/Button';
 import { BiChevronRight } from "react-icons/bi";

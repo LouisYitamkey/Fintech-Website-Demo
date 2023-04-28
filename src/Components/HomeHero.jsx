@@ -7,7 +7,7 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Homehero = () => {
   return (
-    <div className='w-full h-full '>
+    <div className='w-full h-full  bg-[#11243e] '>
           <section id="home" className={`flex md:px-20  md:flex-row  flex-col sm:py-1 py-6`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
@@ -27,9 +27,9 @@ const Homehero = () => {
 
       <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0  my-5 relative`}>
         <div>
-        <h1 className='md:text-7xl tracking-wide text-5xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Instant access to <br/> open banking</h1>
+        <h1 className='md:text-7xl tracking-wide text-white text-5xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Instant access to <br/> open banking</h1>
 
-     <p className=' pt-7 md:pt-10 text-lg text-[#849aa9]   px-3 md:leading-[30px]  md:px-0  md:font-medium' >
+     <p className=' pt-7 md:pt-10 text-lg text-slate-200   px-3 md:leading-[30px]  md:px-0  md:font-medium' >
       Easily integrate next-generation payments and financial data <br className='hidden md:block'/> into any app. Build powerful products your customers love.
 
      </p>
@@ -42,10 +42,10 @@ const Homehero = () => {
 
 <div className='flex  space-x-5'>
      <div className='pt-10'>
-     <Button className=" bg-[#11243e]  text-base   hover:bg-sky-600  text-white px-6 py-3 " variant="outlined">Get In Touch <BiChevronRight size={25} /> </Button>
+     <Button className=" bg-sky-600 hover:bg-sky-500 text-base     text-white px-6 py-3 " variant="outlined">Get In Touch <BiChevronRight size={25} /> </Button>
      </div>
      <div className='pt-10'>
-     <Button className=" text-black border-[#11243e]  text-base hover:text-white  hover:bg-sky-600  px-6 py-3.5 " variant="outlined"> Start Building  </Button>
+     <Button className=" text-white  text-base hover:text-white  hover:bg-sky-600  px-6 py-3.5 " variant="outlined"> Start Building  </Button>
 
      </div>
 
