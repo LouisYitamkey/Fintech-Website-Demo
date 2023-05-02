@@ -17,8 +17,8 @@ import Explorecards from '../Components/Explorecards';
 const Kyc = () => {
   return (
     <div className='w-full h-full  md:mt-0    '>
-      <section id="home" className={`flex md:px-28 bg-[#11243e] text-white   md:flex-row  flex-col ${styles.paddingY}`}>
-  <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
+      <section id="home" className={`flex md:px-28 bg-[#11243e] text-white   md:flex-row  flex-col md:py-28 py-6`}>
+  <div className={`flex-1 ${styles.flexStart} pt-20 pb-10 flex-col xl:px-0 sm:px-16 `}>
     <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
  <div>
 

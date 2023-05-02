@@ -10,8 +10,8 @@ import Footer from '../Components/Footer';
     return (
    <>
    
-   
-   <div>
+
+   <div className=''>
    <Nextgen />
    </div>
 
