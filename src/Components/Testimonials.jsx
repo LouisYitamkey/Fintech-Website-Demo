@@ -30,7 +30,7 @@ export default function Testimonials() {
          </div>
          
          <div className="flex justify-center items-center">
-         <p className="py-5    text-2xl "> {testimonial.company}</p>
+         <p className="py-5    text-lg "> {testimonial.company}</p>
          </div>
          
 
