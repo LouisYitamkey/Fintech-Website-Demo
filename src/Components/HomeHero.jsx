@@ -27,13 +27,12 @@ const Homehero = () => {
 
       <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0  my-5 relative`}>
         <div>
-        <h1 className='md:text-7xl tracking-wide text-white text-5xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Instant access to <br/> open banking</h1>
+        <h1 className='md:text-7xl md:pb-10 tracking-wide text-white text-5xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Instant access to <br/> open banking</h1>
 
-     <p className=' pt-7 md:pt-10 text-lg text-slate-200   px-3 md:leading-[30px]  md:px-0  md:font-medium' >
-      Easily integrate next-generation payments and financial data <br className='hidden md:block'/> into any app. Build powerful products your customers love.
+     <br/>
+     <p className='font-normal pl-3 md:hidden text-slate-200  text-lg'>Utilize Pavelon’s channel partners like payment apps,  payroll services, financial comparison websites, CRM  solutions, or tax apps for effective distribution at lower  costs. Get pre-verified leads and offers. </p>
+<span className='font-normal hidden md:block text-slate-200 pb-5   text-lg'>Utilize Pavelon’s channel partners—like payment apps, <br/> payroll services, financial comparison websites, CRM <br/> solutions, or tax apps for effective distribution at lower <br/> costs. Get pre-verified leads and offers. </span>
 
-     </p>
-  
 
 
      {/* For Desktop */}
