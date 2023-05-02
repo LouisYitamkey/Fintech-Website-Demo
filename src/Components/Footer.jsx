@@ -1,6 +1,9 @@
 import styles from "../style";
 
 import { ImFacebook, ImTwitter, ImWhatsapp } from "react-icons/im";
+import Logo from '../images/pavelonlogo.png'
+import { Link } from 'react-router-dom';
+
 
 
 import { footerLinks } from "../constants";
@@ -9,7 +12,7 @@ const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY}  md:px-36 bg-[#11243e] flex-col`}>
     <div className={`${styles.flexStart} px-6 md:px-20 md:flex-row flex-col mb-8  w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
-      <h1 className="font-bold md:pb-3 text-white text-3xl"> Logo</h1>
+      <Link to='/'> <img className='w-[124px] h-[32px] ' style={{filter: 'invert(100%)'}} src={Logo}/></Link>  
 
         
 

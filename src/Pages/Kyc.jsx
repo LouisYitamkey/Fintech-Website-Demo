@@ -75,7 +75,7 @@ const Kyc = () => {
 
   <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0 md:mb-12  my-5 relative`}>
     
-  <div className='hidden md:block   '>
+  <div className='hidden md:block  pt-8  '>
 
 <video  className='w-full' autoPlay muted loop src={Kycvideo} />
 

@@ -29,6 +29,9 @@ import {
     IconCoin,
     IconChevronDown,
   } from '@tabler/icons-react';
+  import Logo from '../images/pavelonlogo.png'
+  import { Link } from 'react-router-dom';
+
   
   const useStyles = createStyles((theme) => ({
     link: {
@@ -40,7 +43,7 @@ import {
       textDecoration: 'none',
       color: theme.colorScheme === 'dark' ? theme.white : theme.black,
       fontWeight: 500,
-      fontSize: theme.fontSizes.sm,
+      fontSize: 15,
   
       [theme.fn.smallerThan('sm')]: {
         height: rem(42),
@@ -93,35 +96,42 @@ import {
   const mockdata = [
     {
       icon: IconCode,
-      title: 'Open source',
-      description: 'This Pokémon’s cry is very loud and distracting',
+      title: 'KYC',
+      description: 'Conduct comprehension KYC with real time verification',
+      path: '/kyc'
     },
     {
       icon: IconCoin,
-      title: 'Free for everyone',
-      description: 'The fluid of Smeargle’s tail secretions changes',
+      title: 'Digital Lending',
+      description: 'The Next-Gen Platform For Automated Digital Lending.',
+      path: '/digitalLending'
     },
     {
       icon: IconBook,
-      title: 'Documentation',
-      description: 'Yanma is capable of seeing 360 degrees without',
+      title: 'Capital by API',
+      description: 'Lend money to users at scale',
+    //   path: '/capital-by-api'
     },
     {
       icon: IconFingerprint,
-      title: 'Security',
-      description: 'The shell’s rounded shape and the grooves on its.',
+      title: 'Digital Accounts API',
+      description: 'Flexible and simple opening of accounts by users',
+    //   path: '/digital-accounts-api'
     },
     {
       icon: IconChartPie3,
-      title: 'Analytics',
-      description: 'This Pokémon uses its flying ability to quickly chase',
+      title: 'Investment as a service',
+      description: 'Grant your customers the ability to own investment',
+    //   path: '/investment-as-a-service'
     },
     {
       icon: IconNotification,
-      title: 'Notifications',
-      description: 'Combusken battles with the intensely hot flames it spews',
+      title: 'Banking as a service',
+      description: 'Embed financial services in your platform or products.',
+    //   path: '/banking-as-a-service'
     },
   ];
+  
   
   export function HeaderMegaMenu() {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
@@ -129,49 +139,49 @@ import {
     const { classes, theme } = useStyles();
   
     const links = mockdata.map((item) => (
-      <UnstyledButton className={classes.subLink} key={item.title}>
-        <Group noWrap align="flex-start">
-          <ThemeIcon size={34} variant="default" radius="md">
-            <item.icon size={rem(22)} color={theme.fn.primaryColor()} />
-          </ThemeIcon>
-          <div>
-            <Text size="sm" fw={500}>
-              {item.title}
-            </Text>
-            <Text size="xs" color="dimmed">
-              {item.description}
-            </Text>
-          </div>
-        </Group>
-      </UnstyledButton>
-    ));
+        <Link to={item.path} className={classes.subLink} key={item.title}>
+          <Group noWrap align="flex-start">
+            <ThemeIcon size={34} variant="default" radius="md">
+              <item.icon size={rem(22)} color={theme.fn.primaryColor()} />
+            </ThemeIcon>
+            <div>
+              <Text size="md" fw={500}>
+                {item.title}
+              </Text>
+              <Text size="sm" color="dimmed">
+                {item.description}
+              </Text>
+            </div>
+          </Group>
+        </Link>
+      ));
+      
   
     return (
-      <Box >
+      <Box  >
         <Header height={60} className='md:px-52'>
           <Group position="apart" sx={{ height: '100%' }}>
-            <MantineLogo size={30} />
+            <Link to='/'> <img className='w-[124px] h-[32px]' src={Logo}/></Link>  
+           
   
             <Group sx={{ height: '100%' }} spacing={0} className={classes.hiddenMobile}>
              
               <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
                 <HoverCard.Target>
-                  <a href="#" className={classes.link}>
+                  <a href="#" className={classes.link} >
                     <Center inline>
                       <Box component="span" mr={5}>
                         Products
                       </Box>
-                      <IconChevronDown size={16} color={theme.fn.primaryColor()} />
+                      <IconChevronDown size={16}  />
                     </Center>
                   </a>
                 </HoverCard.Target>
   
                 <HoverCard.Dropdown sx={{ overflow: 'hidden' }}>
-                  <Group position="apart" px="md">
+                  <Group  position="apart" px="md">
                     <Text fw={500}>Features</Text>
-                    <Anchor href="#" fz="xs">
-                      View all
-                    </Anchor>
+                  
                   </Group>
   
                   <Divider
@@ -180,36 +190,32 @@ import {
                     color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
                   />
   
-                  <SimpleGrid cols={2} spacing={0}>
+                  <SimpleGrid  cols={2} spacing={0}>
+                    
                     {links}
+                  
+                   
                   </SimpleGrid>
   
                   <div className={classes.dropdownFooter}>
                     <Group position="apart">
-                      <div>
-                        <Text fw={500} fz="sm">
-                          Get started
-                        </Text>
-                        <Text size="xs" color="dimmed">
-                          Their food sources have decreased, and their numbers
-                        </Text>
-                      </div>
-                      <Button variant="default">Get started</Button>
+                     
+                    
                     </Group>
                   </div>
                 </HoverCard.Dropdown>
               </HoverCard>
               <a href="#" className={classes.link}>
-                Learn
+                Solutions
               </a>
               <a href="#" className={classes.link}>
-                Academy
+                Use Cases
               </a>
             </Group>
   
             <Group className={classes.hiddenMobile}>
-              <Button variant="default">Log in</Button>
-              <Button>Sign up</Button>
+              <Button className='text-base' variant="default">Contact Us</Button>
+          
             </Group>
   
             <Burger opened={drawerOpened} onClick={toggleDrawer} className={classes.hiddenDesktop} />
