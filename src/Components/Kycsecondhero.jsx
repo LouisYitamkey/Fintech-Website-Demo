@@ -49,10 +49,10 @@ const Kycsecondhero = () => {
 {/* For Mobile */}
 <div className=' pt-10 md:hidden'>
     <div className='w-full h-full mb-5 '>
-    <button  class="fluid ui button orange ">  Contact Us </button>
+    <button  class="fluid ui button blue ">  Contact Us </button>
     </div>
     <div className='w-full h-full '>
-    <button  class="fluid ui button blue "> Documentation </button>
+    <button  class="fluid ui button  "> Documentation </button>
     </div>
 
 </div>

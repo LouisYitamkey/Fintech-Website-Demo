@@ -6,7 +6,7 @@ import Finance from '../images/finance.svg'
 const Explorecards = () => {
 
   return (
-    <div className='py-12 md:py-20 md:pt-16 md:px-52 md:pb-28  w-full'>
+    <div className='py-20 md:py-20 md:pt-16 md:px-52 md:pb-28  w-full'>
 
     <div className='pl-3 md:pl-0'>
 

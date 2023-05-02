@@ -46,7 +46,7 @@ const Footer = () => (
 
     <div className="w-full md:px-16 flex justify-between items-center md:flex-row flex-col pt-6 md:border-t-[1px]  md:border-t-slate-400">
       <p className="font-poppins md:pl-3 font-normal text-center text-[10px] md:text-[14px] leading-[27px] text-white">
-        Copyright &#169;. 2023 Casper All Rights Reserved.
+        Copyright &#169;. 2023 Pavelon All Rights Reserved.
       </p>
       <div className="flex flex-row mt-6 md:mt-0">
         <div className="bg-white  hover:bg-slate-200 px-3 mx-2 py-3 rounded-md">  

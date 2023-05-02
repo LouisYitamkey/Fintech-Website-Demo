@@ -91,7 +91,7 @@ import {
     ));
   
     return (
-      <Container className=" py-10 md:py-28" size="xl" py="xl">
+      <Container className=" py-20 md:py-28" size="xl" py="xl">
        
   
         <Title  order={2}  className={`${classes.title} text-[#093554] font-bold`} ta="left" mt="sm">
@@ -112,10 +112,10 @@ import {
 {/* For Mobile */}
 <div className=' pt-10 md:hidden'>
     <div className='w-full h-full mb-5  '>
-    <button  class="fluid ui button orange ">  Contact Us </button>
+    <button  class="fluid ui button blue ">  Contact Us </button>
     </div>
-    <div className='w-full h-full mb-5 '>
-    <button  class="fluid ui button blue "> Documentation </button>
+    <div className='w-full h-full  '>
+    <button  class="fluid ui button  "> Documentation </button>
     </div>
 
 </div>

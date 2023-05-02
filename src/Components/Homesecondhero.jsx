@@ -104,10 +104,10 @@ const Homesecondhero = () => {
     {/* For Mobile */}
     <div className=' pt-10 mb-6 md:mb-0 px-3 md:hidden'>
     <div className='w-full h-full mb-5 '>
-    <button  class="fluid ui button orange ">  Start Building </button>
+    <button  class="fluid ui button blue ">  Start Building </button>
     </div>
     <div className='w-full h-full '>
-    <button  class="fluid ui button blue "> Get in touch </button>
+    <button  class="fluid ui button  "> Get in touch </button>
     </div>
 
 </div>

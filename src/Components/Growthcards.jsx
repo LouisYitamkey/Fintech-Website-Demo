@@ -127,7 +127,7 @@ import {
         </div>
 
      <div className='w-full h-full mt-10 mb-5 md:hidden'>
-    <button  class="fluid ui button orange ">  Get in Touch </button>
+    <button  class="fluid ui button blue ">  Get in Touch </button>
     </div>
 
  

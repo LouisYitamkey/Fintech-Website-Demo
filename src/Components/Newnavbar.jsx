@@ -159,9 +159,9 @@ import {
   
     return (
       <Box  >
-        <Header height={60} className='md:px-52'>
+        <Header height={60} className='md:px-52 px-3'>
           <Group position="apart" sx={{ height: '100%' }}>
-            <Link to='/'> <img className='w-[124px] h-[32px]' src={Logo}/></Link>  
+            <Link to='/'> <img className='object-contain w-[124px]  h-[32px]' src={Logo}/></Link>  
            
   
             <Group sx={{ height: '100%' }} spacing={0} className={classes.hiddenMobile}>
@@ -227,39 +227,37 @@ import {
           onClose={closeDrawer}
           size="100%"
           padding="md"
-          title="Navigation"
+          title={<img src={Logo} alt="Logo" className='w-[124px] h-[32px]' />}
           className={classes.hiddenDesktop}
           zIndex={1000000}
         >
-          <ScrollArea h={`calc(100vh - ${rem(60)})`} mx="-md">
+
             <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'} />
   
-            <a href="#" className={classes.link}>
-              Home
-            </a>
+           
             <UnstyledButton className={classes.link} onClick={toggleLinks}>
               <Center inline>
                 <Box component="span" mr={5}>
-                  Features
+                  Products
                 </Box>
                 <IconChevronDown size={16} color={theme.fn.primaryColor()} />
               </Center>
             </UnstyledButton>
-            <Collapse in={linksOpened}>{links}</Collapse>
+            <Collapse onClick={toggleDrawer} in={linksOpened}>{links}</Collapse>
             <a href="#" className={classes.link}>
-              Learn
+              Solutions
             </a>
             <a href="#" className={classes.link}>
-              Academy
+              Use Cases
             </a>
   
             <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'} />
   
-            <Group position="center" grow pb="xl" px="md">
-              <Button variant="default">Log in</Button>
-              <Button>Sign up</Button>
+            <Group position="center" grow pb="xl" py={50} px="md">
+              <Button onClick={() => window.location.href = 'tel:+233541930635'}  variant="default">Contact Sales</Button>
+           
             </Group>
-          </ScrollArea>
+         
         </Drawer>
       </Box>
     );

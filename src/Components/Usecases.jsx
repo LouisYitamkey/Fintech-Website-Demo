@@ -6,7 +6,7 @@ import Finance from '../images/finance.svg'
 
 const Usecases = ( ) => {
   return (
-    <div className='py-20 md:pt-32 md:px-52 md:pb-36  w-full'>
+    <div className=' pt-20  pb-6 md:pt-32 md:px-52 md:pb-36  w-full'>
 
         <div className='pl-3 md:pl-0'>
         <h1> <span className='md:text-2xl text-xl   md:pl-1 text-[#093554]  md:font-bold '> Powerful Use Cases</span> </h1>

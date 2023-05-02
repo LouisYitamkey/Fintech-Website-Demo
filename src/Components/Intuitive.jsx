@@ -8,7 +8,7 @@ import Button from '@mui/material/Button'
 const Intuitive = () => {
   return (
 
-    <div className='w-full mt-12 md:mt-0 bg-[#11243e] text-white '>
+    <div className='w-full pt-10 md:pt-0 bg-[#11243e] text-white '>
     <section id="home" className={`flex md:px-28  md:flex-row  flex-col sm:py-32 py-6`}>
 <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
   <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
@@ -39,10 +39,10 @@ const Intuitive = () => {
   {/* For Mobile */}
 <div className=' pt-10 md:hidden px-2'>
     <div className='w-full h-full mb-5 '>
-    <button  class="fluid ui button orange ">  Contact Us </button>
+    <button  class="fluid ui button blue ">  Contact Us </button>
     </div>
     <div className='w-full h-full '>
-    <button  class="fluid ui button blue "> Documentation </button>
+    <button  class="fluid ui button "> Documentation </button>
     </div>
 
 </div>

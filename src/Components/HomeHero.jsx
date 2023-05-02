@@ -57,10 +57,10 @@ const Homehero = () => {
 {/* For Mobile */}
 <div className='pt-10 pb-10 md:hidden'>
     <div className='w-full h-full mb-5 px-3'>
-    <button  class="fluid ui button orange "> Get in Touch  </button>
+    <button  class="fluid ui button blue "> Get in Touch  </button>
     </div>
     <div className='w-full h-full px-3'>
-    <button  class="fluid ui button blue "> Start Building</button>
+    <button  class="fluid ui button "> Start Building</button>
     </div>
 
 </div>

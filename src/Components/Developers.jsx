@@ -8,7 +8,7 @@ import Testimonials from './Testimonials';
 
 const Developers = () => {
   return (
-    <div className='md:pt-10 py-16   px-3 bg-slate-100   '>
+    <div className='md:pt-10 pt-5 pb-20 md:pb-0   px-3 bg-slate-100 '>
 
          <h1 className='text-center pt-20 md:pt-20'> <span className='md:text-2xl text-xl text-[#7991a2]     font-bold '> Made for Humans</span> </h1>
          <h1 className='md:text-5xl md:pb-8 hidden md:block text-center  md:pt-4  tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > Developer-first </h1>
