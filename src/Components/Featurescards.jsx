@@ -105,7 +105,7 @@ import {
         </SimpleGrid>
 
         <div className=' hidden md:flex justify-center items-center mt-10 md:mt-20 space-x-5 '>
-        <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " > Contact Us <BiChevronRight size={30} /> </Button>
+        <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-3 " > Contact Us <BiChevronRight size={25} /> </Button>
         <Button className=" text-black  text-base hover:text-white  hover:bg-sky-600  px-6 py-3.5 " variant="outlined"> Documentation  </Button>
 </div>
 

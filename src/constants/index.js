@@ -139,7 +139,7 @@ export const testimonials = [
       testimony: "TrueLayer’s APIs are amazingly simple to work with. We got up and running in 3 days..",
       image: Nurse,
       title: "Product Manager",
-      company: "credit mall"
+      company: "Credit Mall"
 
     },
 
@@ -149,7 +149,7 @@ export const testimonials = [
       testimony: "TrueLayer’s APIs are amazingly simple to work with. We got up and running in 3 days.",
       image: Nurse,
       title: "Tech Lead",
-      company: "credit mall"
+      company: "Jira"
     },
 
     {
@@ -158,7 +158,7 @@ export const testimonials = [
       testimony: "TrueLayer's APIs are robust and developer friendly. We started seeing benefits ",
       image: Nurse,
       title: "Full-stack Developer",
-      company: "credit mall"
+      company: "Credit Mall"
     },
   
   

@@ -34,10 +34,10 @@ const Consumerloans = () => {
        {/* Features section */}
 
        <div>
-<p className='font-normal  pl-3 md:pl-0 md:pt-8 pt-6 md:pb-0  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Automate verification checks  </p>
+<p className='font-normal  pl-3 md:pl-0 md:pt-8 pt-6 md:pb-0  text-lg'> <span className='text-sky-500'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Automate verification checks  </p>
 </div>
 <div>
-<p className='font-normal pl-3 md:pl-0 md:pt-4  pt-4  text-lg'> <span className='text-blue-400'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Instant match logic  </p>
+<p className='font-normal pl-3 md:pl-0 md:pt-4  pt-4  text-lg'> <span className='text-sky-500'> <i class="fa-solid fa-square-check"></i> </span>  &nbsp; Instant match logic  </p>
 </div>
       
 <div className=' hidden md:block mt-10 md:mt-10 space-x-5 '>
