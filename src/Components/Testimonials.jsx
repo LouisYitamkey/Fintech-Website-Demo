@@ -23,14 +23,14 @@ export default function Testimonials() {
          </div>
 
          <div className="flex justify-center items-center">
-         <p className="py-5 md:font-medium text-lg "> {testimonial.name}</p>
+         <p className="py-5  text-lg "> {testimonial.name}</p>
          </div>
          <div className="flex justify-center items-center">
          <p className=" "> {testimonial.title}</p>
          </div>
          
          <div className="flex justify-center items-center">
-         <p className="py-5 font-semibold   text-2xl "> {testimonial.company}</p>
+         <p className="py-5    text-2xl "> {testimonial.company}</p>
          </div>
          
 

@@ -22,10 +22,10 @@ const Globalloans = () => {
   </p>
   <div>
 
-  <p className='font-normal pl-3 md:pl-0 md:pt-6 pt-6 md:pb-  text-lg'> <span> <i class="fa-solid text-sky-600  fa-square-check"></i> </span>  &nbsp;  Live across the UK, Europe, and Australia</p>
+  <p className=' pl-3 md:pl-0 md:pt-6 pt-6 md:pb-  text-lg'> <span> <i class="fa-solid text-sky-600  fa-square-check"></i> </span>  &nbsp;  Live across the UK, Europe, and Australia</p>
   </div>
   <div>
-  <p className='font-normal pl-3 md:pl-0 md:pt-4  pt-4  text-lg'> <span> <i class="fa-solid text-sky-600  fa-square-check"></i> </span>  &nbsp;   Live across the UK, Europe, and Australia</p>
+  <p className=' pl-3 md:pl-0 md:pt-4  pt-4  text-lg'> <span> <i class="fa-solid text-sky-600  fa-square-check"></i> </span>  &nbsp;   Live across the UK, Europe, and Australia</p>
   </div>
 
 

@@ -24,8 +24,8 @@ const Homesecondhero = () => {
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-    <p className='font-normal pl-3 md:hidden    text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate  KYC    <br className='hidden md:block'/> processes.</p>
-    <span className='font-normal hidden md:block    text-lg'>Onboard customers in seconds and securely access account information.  Say goodbye to manual form-filling and accelerate your AML and KYC    processes.</span>
+    <p className=' pl-3 md:hidden    text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate  KYC    <br className='hidden md:block'/> processes.</p>
+    <span className=' hidden md:block    text-lg'>Onboard customers in seconds and securely access account information.  Say goodbye to manual form-filling and accelerate your AML and KYC    processes.</span>
 
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
