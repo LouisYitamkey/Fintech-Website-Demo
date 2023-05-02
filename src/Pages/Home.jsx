@@ -7,11 +7,9 @@ import Usecases from '../Components/Usecases'
 import Experts from '../Components/Experts'
 import Developers from '../Components/Developers'
 import Global from '../Components/Global'
+import { FaqWithImage } from '../Components/Faq'
 
 import Footer from '../Components/Footer'
-
-
-
 
 
 
@@ -51,6 +49,10 @@ const Home = () => {
 
       <div>
         <Developers/>
+      </div>
+
+      <div className='py-6 md:py-28 md:bg-slate-50'>
+      <FaqWithImage />
       </div>
 
     
