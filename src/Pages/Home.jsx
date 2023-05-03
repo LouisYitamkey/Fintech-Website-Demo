@@ -51,7 +51,7 @@ const Home = () => {
         <Developers/>
       </div>
 
-      <div className='py-8 md:py-28 md:bg-slate-50'>
+      <div className='py-10 md:py-28 md:bg-slate-50'>
       <FaqWithImage />
       </div>
 
