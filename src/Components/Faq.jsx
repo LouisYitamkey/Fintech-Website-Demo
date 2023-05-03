@@ -1,6 +1,6 @@
 import { createStyles, Image, Accordion, Grid, Col, Container, Title } from '@mantine/core';
 
-import FaqImage from '../images/imagefaq.png'
+import FaqImage from '../images/Faqimage.jpg'
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -31,7 +31,7 @@ export function FaqWithImage() {
       <Container size="lg">
         <Grid id="faq-grid" gutter={50}>
           <Col span={12} md={6}>
-            <Image  style={{ filter: 'hue-rotate(203deg) brightness(115%)' }}className=' md:pt-20' src={FaqImage} alt="Frequently Asked Questions" />
+            <Image   className=' md:pt-20' src={FaqImage} alt="Frequently Asked Questions" />
           </Col>
           <Col span={12} md={6}>
             <Title order={2} ta="left" className={classes.title}>
