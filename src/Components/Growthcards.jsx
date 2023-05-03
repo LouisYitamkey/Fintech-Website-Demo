@@ -54,6 +54,7 @@ import {
     title: {
     
       fontWeight: 900,
+      
   
       [theme.fn.smallerThan('sm')]: {
         fontSize: rem(24),
@@ -112,7 +113,7 @@ import {
       <Container className=' py-10 md:py-28' size="xl" py="xl">
        
   
-        <Title order={2} className={`${classes.title}  `} ta="left" mt="sm">
+        <Title id='growth' order={2} className={`${classes.title} text-[#093554] `} ta="left" mt="sm">
         Your platform for growth
         </Title>
   

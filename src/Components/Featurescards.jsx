@@ -94,7 +94,7 @@ import {
       <Container className=" py-20 md:py-28" size="xl" py="xl">
        
   
-        <Title  order={2}  className={`${classes.title} text-[#093554] font-bold`} ta="left" mt="sm">
+        <Title id="usecases"  order={2}  className={`${classes.title} text-[#093554] font-bold`} ta="left" mt="sm">
         Use Cases
         </Title>
   

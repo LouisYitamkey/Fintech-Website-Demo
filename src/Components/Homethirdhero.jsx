@@ -25,7 +25,7 @@ const Homethirdhero = () => {
      <div>
     <span className='md:text-xl text-xl    md:pl-1 text-[#7991a2]  md:font-bold '> Financial Data</span> 
        <h1 className='md:text-5xl hidden md:block text-white md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '> Connect your app <br/> to any bank account </h1>
-       <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-[#093554] text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Connect your app  to <br/> any bank account </h1>
+       <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Connect your app  to <br/> any bank account </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
