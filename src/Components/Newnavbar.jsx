@@ -227,7 +227,7 @@ import {
           onClose={closeDrawer}
           size="100%"
           padding="md"
-          title={<img src={Logo} alt="Logo" className='w-[110px] h-[32px]' />}
+          title={<img src={Logo} alt="Logo" className='w-[110px] pt-3 h-[32px]' />}
           className={classes.hiddenDesktop}
           zIndex={1000000}
         >
