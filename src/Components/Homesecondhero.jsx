@@ -17,8 +17,8 @@ const Homesecondhero = () => {
      <div>
   
     <span className='md:text-xl text-2xl pl-3   md:pl-1 text-[#7991a2]  md:font-bold '> Instant Bank Payments</span> 
-       <h1 className=' hidden md:block md:text-5xl md:pt-5  md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Build better payments <br/> experiences</h1>
-       <h1 className='md:text-7xl md:hidden pb-10 pt-2  text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
+       <h1 className=' hidden md:block text-[#093554] md:text-5xl md:pt-5  md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Build better payments <br/> experiences</h1>
+       <h1 className='md:text-7xl text-[#093554] md:hidden pb-10 pt-2  text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />

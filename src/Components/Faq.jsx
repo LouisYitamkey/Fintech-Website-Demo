@@ -11,8 +11,10 @@ const useStyles = createStyles((theme) => ({
   title: {
     marginBottom: theme.spacing.md,
     paddingLeft: theme.spacing.md,
-    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
+    color: '#093554',
+  
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
+    
   },
 
   item: {
@@ -34,7 +36,7 @@ export function FaqWithImage() {
             <Image   className=' ' src={FaqImage} alt="Frequently Asked Questions" />
           </Col>
           <Col span={12} md={6}>
-            <Title order={2} ta="left" className={classes.title}>
+            <Title  id='faq' order={2} ta="left" className={classes.title}>
               Frequently Asked Questions
             </Title>
 
