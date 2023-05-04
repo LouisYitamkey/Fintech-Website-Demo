@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Mycode from '../images/newcode.png'
 
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -62,7 +63,7 @@ export default function BasicTabs() {
     
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <p className='py-24 ' >INITIATE API CODE HERE</p>
+      <p className='py-24 ' > PAYMENT  API CODE HERE</p>
    
       </TabPanel>
     

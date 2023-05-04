@@ -214,7 +214,7 @@ import {
             </Group>
   
             <Group className={classes.hiddenMobile}>
-              <Button className='text-base' variant="default">Contact Us</Button>
+              <Button className=' py-3' variant="default">Contact Us</Button>
           
             </Group>
   

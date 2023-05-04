@@ -67,17 +67,18 @@ export const footerLinks = [
   {
     title: "Useful Links",
     links: [
+     
       {
-        name: "Products",
+        name: "KYC",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "Products",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "Features",
+        name: "Digital Lending",
         link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "FAQ's",
+        link: "https://www.hoobank.com/create/",
       },
       {
         name: "FAQ's",
