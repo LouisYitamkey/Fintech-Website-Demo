@@ -159,7 +159,7 @@ import {
   
     return (
       <Box >
-        <Header height={70} className='md:px-52 px-3'>
+        <Header height={90} className='md:px-52  px-3'>
           <Group position="apart" sx={{ height: '100%' }}>
             <Link to='/'> <img className='object-contain w-[124px]  h-[32px]' src={Logo}/></Link>  
            
