@@ -1,4 +1,12 @@
 import Partnerslogo from "../images/yangonew.png"
+import Cml from "../images/cml.png"
+import Tf from "../images/Tf.png"
+import Jireh from "../images/Jireh.png"
+import Jipa from "../images/Jipalogof.png"
+import Gcb from "../images/Gcb.png"
+
+import Vroom from "../images/vroom.png"
+import Credify from "../images/credify.png"
 import Nurse from "../images/nursenew.png"
 
 
@@ -37,20 +45,20 @@ export const navLinks = [
     {
       id: 0,
       title: "Products",
-      image: Partnerslogo,
+      image: Cml,
     
   
     },
     {
       id: 1,
       title: "Industries",
-      image: Partnerslogo,
+      image: Vroom,
    
     },
     {
       id: 2,
       title: "Developers",
-      image: Partnerslogo,
+      image: Tf,
     },
     {
         id: 3,
@@ -58,8 +66,32 @@ export const navLinks = [
         image: Partnerslogo,
       
       },
+      {
+        id: 4,
+        title: "Resources",
+        image: Jireh,
+      
+      },
+      {
+        id: 5,
+        title: "Resources",
+        image: Vroom,
+      
+      },
+      {
+        id: 6,
+        title: "Resources",
+        image:  Credify,
+      
+      },
+      {
+        id: 6,
+        title: "Resources",
+        image:  Credify,
+      
+      },
+      
      
-    
        
   ];
   

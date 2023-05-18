@@ -16,16 +16,19 @@ const Homesecondhero = () => {
         <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
      <div>
   
-    <span className='md:text-xl text-2xl pl-3   md:pl-1 text-[#7991a2]  md:font-bold '> Instant Bank Payments</span> 
-       <h1 className=' hidden md:block text-[#093554] md:text-5xl md:pt-5  md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Build better payments <br/> experiences</h1>
+    <span className='md:text-xl text-2xl pl-3   md:pl-1 text-[#7991a2]  md:font-bold '> Credit Infrastructure</span> 
+       <h1 className=' hidden md:block text-[#093554] md:text-5xl md:pt-5  md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '>Give your customers the ability to borrow on demand.</h1>
        <h1 className='md:text-7xl text-[#093554] md:hidden pb-10 pt-2  text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-    <p className=' pl-3 md:hidden    text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate  KYC    <br className='hidden md:block'/> processes.</p>
-    <span className=' hidden md:block    text-lg'>Onboard customers in seconds and securely access account information.  Say goodbye to manual form-filling and accelerate your AML and KYC    processes.</span>
+    <p className='  md:hidden  px-4  text-lg'>The easiest way to offer consumer loans in your branding. Our API-based solution enables you to integrate consumer loans directly into your product. Our swift application process is fully digital, paperless, and mobile, allowing your customers to receive a credit decision as fast as 10 minutes.</p>
+    <span className=' hidden md:block    text-lg'>The easiest way to offer consumer loans in your branding.
+
+Our <br/>API-based solution enables you to integrate consumer loans directly into your product. Our swift application process is fully  <br/> digital, paperless, and mobile, allowing your customers to <br/> receive a credit decision as fast as 10 minutes.
+ .</span>
 
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
@@ -43,7 +46,7 @@ const Homesecondhero = () => {
     <div>
       
     </div>
-      <p className=' md:pl-1 pl-3   hover:text-sky-500  '> Payments </p>
+      <p className=' md:pl-1 pl-3   hover:text-sky-500  '> Loan Origination </p>
    
       <  BiChevronRight className='text-blue-400' size={20} /> 
         </div>
@@ -63,13 +66,14 @@ const Homesecondhero = () => {
 
   </div>
 
-<p className=' hover:text-sky-500 pl-3  md:pl-1  '> Payouts </p>
+<p className=' hover:text-sky-500 pl-3  md:pl-1  '> Loan Disbursement </p>
 
 <  BiChevronRight className='text-blue-400' size={20} /> 
   </div>
-  <span className='font-normal text-[#849aa9]   pl-[55px] md:pl-14 '> Withdrawals and refunds</span>
+  <span className='font-normal text-[#849aa9]   pl-[55px] md:pl-14 '> Disburse Loans to any bank account or <br/> <span className='md:pl-14 pl-16'>mobile money wallet. </span> </span>
  
  </div>
+ 
 
  
        <div className='hover:cursor-pointer'> 
@@ -84,13 +88,34 @@ const Homesecondhero = () => {
 
   </div>
 
-<p className=' hover:text-sky-500 pl-3 md:pl-1  '> Varibale recurring payments </p>
+<p className=' hover:text-sky-500 pl-3 md:pl-1  '> Embedded Credit </p>
 
 <  BiChevronRight className='text-blue-400' size={20} /> 
   </div>
   <span className='font-normal text-[#849aa9]  pl-[55px]  md:pl-14 '> Ad-hoc and subcription payments</span>
  
  </div>
+ <div className='hover:cursor-pointer'> 
+
+{/* third */}
+<div className='flex  md:mt-5 mt-5   '>
+  <div className='md:mr-4 ml-3 md:ml-0 mt-1'>
+  <span className='text-sky-500'> 
+          <i class="fa-solid fa-2xl fa-money-check"></i>
+
+          </span>
+
+  </div>
+
+<p className=' hover:text-sky-500 pl-3 md:pl-1  '> White-label Mobile Apps </p>
+
+<  BiChevronRight className='text-blue-400' size={20} /> 
+  </div>
+  <span className='font-normal text-[#849aa9]  pl-[55px]  md:pl-14 '> Full-Featured mobile apps. Works <br/> <span className='md:pl-14 pl-16'> out of the box with the Pavelon Platform.</span>  </span>
+ 
+ </div>
+ 
+
  
 
       

@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from '../style'
 import Video from '../video/herovideo.webm'
-import Button from '@mui/material/Button';
-import { BiChevronRight } from "react-icons/bi";
+import Button from '@mui/material/Button'
+import { BiChevronRight } from "react-icons/bi"
+import Typed from 'react-typed';
+
 
 
 const Homehero = () => {
@@ -27,11 +29,19 @@ const Homehero = () => {
 
       <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0  my-5 relative`}>
         <div>
-        <h1 className='md:text-7xl tracking-wide text-white text-5xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Instant access to <br/> open banking</h1>
-       
-
+        <h1 className='md:text-6xl tracking-wide text-white text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Build, launch, and scale financial <br className='hidden md:block'/>   <Typed
+                    strings={['credit', 'BNPL', 'savings']}
+                    typeSpeed={80}
+                    backSpeed={80}
+                 
+                    loop
+                    
+          /> products</h1>
+     
+     
+      
      <p className=' pt-7 md:pt-10 text-lg text-slate-200   px-3 md:leading-[30px]  md:px-0  ' >
-      Easily integrate next-generation payments and financial data <br className='hidden md:block'/> into any app. Build powerful products your customers love.
+     Whether you're a startup or an established company looking to <br className='hidden md:block' /> bring a new financial product to your customers, our platform <br  className='hidden md:block'/> has  everything you need to launch a world-class Fintech app <br  className='hidden md:block'/> or  embedded finance product.
 
      </p>
      

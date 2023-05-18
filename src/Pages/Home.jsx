@@ -30,9 +30,7 @@ const Home = () => {
       <Partners />
       </div>
 
-      <div>
-      <Partners />
-      </div>
+      
 
       <div>
       <Homethirdhero />
