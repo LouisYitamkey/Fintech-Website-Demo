@@ -33,6 +33,8 @@ const Homehero = () => {
                     strings={['credit', 'BNPL', 'saving']}
                     typeSpeed={80}
                     backSpeed={80}
+                    className='text-sky-600'
+                   
                    
                  
                     loop
