@@ -254,7 +254,7 @@ import {
             <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'} />
   
             <Group position="center" grow pb="xl" py={50} px="md">
-              <Button onClick={() => window.location.href = 'tel:+233541930635'}  variant="default">Contact Sales</Button>
+              <Button className='bg-sky-600 hover:bg-sky-500 text-white' onClick={() => window.location.href = 'tel:+233541930635'}  variant="default">Contact Sales</Button>
            
             </Group>
          
