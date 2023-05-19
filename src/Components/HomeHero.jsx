@@ -33,7 +33,7 @@ const Homehero = () => {
                     strings={['credit', 'BNPL', 'saving']}
                     typeSpeed={80}
                     backSpeed={80}
-                    startDelay={1000}
+                   
                  
                     loop
                     
