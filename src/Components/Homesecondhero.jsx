@@ -25,10 +25,7 @@ const Homesecondhero = () => {
 
     </div>
     <p className='  md:hidden  px-4  text-lg'>The easiest way to offer consumer loans in your branding. Our API-based solution enables you to integrate consumer loans directly into your product.  <br/> <br/> Our swift application process is fully digital, paperless, and mobile, allowing your customers to receive a credit decision as fast as 10 minutes.</p>
-    <span className=' hidden md:block    text-lg'>The easiest way to offer consumer loans in your branding.
-
-Our <br/>API-based solution enables you to integrate consumer loans directly into your product. Our swift application process is fully  <br/> digital, paperless, and mobile, allowing your customers to <br/> receive a credit decision as fast as 10 minutes.
- .</span>
+    <span className=' hidden md:block    text-lg'>The easiest way to offer consumer loans in your branding.Our API-based solution enables you to integrate consumer loans directly into your product. Our swift application process is fully  digital, paperless, and mobile, allowing your customers to  receive a credit decision as fast as 10 minutes.</span>
 
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
