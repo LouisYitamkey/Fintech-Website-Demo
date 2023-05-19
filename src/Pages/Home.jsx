@@ -9,6 +9,8 @@ import Developers from '../Components/Developers'
 import Global from '../Components/Global'
 import { FaqWithImage } from '../Components/Faq'
 
+import { FeaturesTitle } from '../Components/Homekycnew'
+
 import Footer from '../Components/Footer'
 
 
@@ -30,11 +32,9 @@ const Home = () => {
       <Partners />
       </div>
 
-      
-
-      <div>
-      <Homethirdhero />
-
+    
+      <div className='md:px-48 md:py-16 bg-slate-50 '>
+      <FeaturesTitle />
       </div>
       <div>
       <Usecases />

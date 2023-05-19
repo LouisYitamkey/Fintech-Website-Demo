@@ -3,7 +3,7 @@ import { Partnersdata } from "../constants";
 
 function Partners() {
   return (
-    <div className=" columns-2 md:columns-4   py-14 md:py-12  pl-28   md:justify-between justify-center space-x-2 space-y-20 md:space-y-10 px-16   ">
+    <div className=" columns-4 md:columns-4  bg-slate-100  pt-14 md:pt-0 md:py-12  px-10 md:pl-28   md:justify-between justify-center space-x-4 md:space-x-2 space-y-16 md:space-y-10  md:px-16   ">
       {Partnersdata.map((partner) => (
 
   <div className="flex md:pl-28 " key={partner.id}>

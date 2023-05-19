@@ -34,10 +34,10 @@ const Developers = () => {
   
 <div className='flex justify-center items-center  space-x-5'>
      <div className='pt-20 pb-20'>
-     <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " variant="outlined"> Get in Touch <BiChevronRight size={30} /> </Button>
+     <Button className="  bg-sky-600 text-base   hover:bg-sky-500  text-white px-6 py-2 " variant="outlined" > Get in Touch <BiChevronRight size={30} /> </Button>
      </div>
      <div className='pt-20 pb-20'>
-     <Button className="  border-sky-600 text-base hover:text-white  hover:bg-sky-600   px-6 py-3 " variant="outlined"> Start Building  </Button>
+     <Button className="  border-sky-600 text-base hover:text-white  hover:bg-sky-600   px-6 py-3 " variant="outlined" > Start Building  </Button>
 
      </div>
 

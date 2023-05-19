@@ -23,16 +23,22 @@ const Homethirdhero = () => {
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-3`}>
         <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
      <div>
-    <span className='md:text-xl text-xl    md:pl-1 text-[#7991a2]  md:font-bold '> Financial Data</span> 
-       <h1 className='md:text-5xl hidden md:block text-white md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '> Connect your app <br/> to any bank account </h1>
-       <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Connect your app  to <br/> any bank account </h1>
+    <span className='md:text-xl text-xl    md:pl-1 text-[#7991a2]  md:font-bold '> Enhanced KYC</span> 
+       <h1 className='md:text-5xl hidden md:block text-white md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '>The easiest way to <br/> Verify and Onboard <br/> users. </h1>
+       <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> The easiest way to Verify and Onboard users. </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
 
     </div>
-       <span className='  text-white  text-lg'>Onboard customers in seconds and securely access account information. <br className='hidden md:block'/> Say goodbye to manual form-filling and accelerate your AML and KYC    <br className='hidden md:block'/> processes.</span>
+       <span className='  text-white  text-lg'> Verify Phone Numbers, ID Cards, and Addresses.  Verify  <br className='hidden md:block'/> the user’s consent  in real-time with consent verification. <br className='hidden md:block'/> Know that people are who they say they are, Faster.
+ </span>
 
+<div>
+
+
+  
+</div>
        <div className='md:mt-10 mt-10 mb-5 '> 
        <div className='hover:cursor-pointer mb-5 '> 
 
@@ -49,10 +55,11 @@ const Homethirdhero = () => {
     <div>
       
     </div>
-      <p className=' md:pl-1 pl-3 text-white  hover:text-blue-300  '> Data </p>
+      <p className=' md:pl-1 pl-3 text-white  hover:text-blue-300  '> Phone Number Verification </p> 
    
       <  BiChevronRight className='text-blue-400' size={20} /> 
         </div>
+        
         <span className='font-normal  text-[#849aa9] pl-12 md:pl-14 '> Account Information</span>
        
        </div>
@@ -69,7 +76,7 @@ const Homethirdhero = () => {
 
   </div>
 
-<p className='text-white hover:text-sky-500 pl-3  md:pl-1  '> Verification API </p>
+<p className='text-white hover:text-sky-500 pl-3  md:pl-1  '> ID Verification </p>
 
 <  BiChevronRight className='text-sky-500' size={20} /> 
   </div>
@@ -90,13 +97,53 @@ const Homethirdhero = () => {
 
   </div>
 
-<p className='text-white hover:text-sky-500 pl-3 md:pl-1  '> Disbursement API </p>
+<p className='text-white hover:text-sky-500 pl-3 md:pl-1  '> Address Verification (Location, Utility Bill) </p>
 
 <  BiChevronRight className='text-blue-400' size={20} /> 
   </div>
   <span className='font-normal text-[#849aa9] pl-12  md:pl-14 '> Ad-hoc and subcription payments</span>
  
  </div>
+
+ <div className='hover:cursor-pointer'> 
+
+{/* third */}
+<div className='flex  md:mt-5 mt-5   '>
+  <div className='md:mr-4 mt-1'>
+  <span className='text-white'> 
+          <i class="fa-solid fa-2xl fa-money-check"></i>
+
+          </span>
+
+  </div>
+
+<p className='text-white hover:text-sky-500 pl-3 md:pl-1  '> Address Verification (Location, Utility Bill) </p>
+
+<  BiChevronRight className='text-blue-400' size={20} /> 
+  </div>
+  <span className='font-normal text-[#849aa9] pl-12  md:pl-14 '> Ad-hoc and subcription payments</span>
+ 
+ </div>
+  <div className='hover:cursor-pointer'> 
+
+{/* third */}
+<div className='flex  md:mt-5 mt-5   '>
+  <div className='md:mr-4 mt-1'>
+  <span className='text-white'> 
+          <i class="fa-solid fa-2xl fa-money-check"></i>
+
+          </span>
+
+  </div>
+
+<p className='text-white hover:text-sky-500 pl-3 md:pl-1  '> Address Verification (Location, Utility Bill) </p>
+
+<  BiChevronRight className='text-blue-400' size={20} /> 
+  </div>
+  <span className='font-normal text-[#849aa9] pl-12  md:pl-14 '> Ad-hoc and subcription payments</span>
+ 
+ </div>
+ 
  
 
       
