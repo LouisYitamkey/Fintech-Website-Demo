@@ -30,10 +30,10 @@ const Homehero = () => {
       <div className={`flex-1 flex ${styles.flexCenter} md:px-10 md:my-0  my-5 relative`}>
         <div>
         <h1 className='md:text-6xl tracking-wide text-white text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[60px] '> Build, launch, and scale financial <br className='hidden md:block'/>   <Typed
-                    strings={['credit', 'BNPL', 'savings']}
+                    strings={['credit', 'BNPL', 'saving']}
                     typeSpeed={80}
                     backSpeed={80}
-                    startDelay={3000}
+                    startDelay={1000}
                  
                     loop
                     
