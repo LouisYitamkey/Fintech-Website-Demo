@@ -1,8 +1,8 @@
-import Partnerslogo from "../images/yangonew.png"
+import Partnerslogo from "../images/yangoo.png"
 import Cml from "../images/cml.png"
 import Tf from "../images/Tf.png"
 import Jireh from "../images/jirehlogo.png"
-import Jipa from "../images/Jipalogof.png"
+import Jipa from "../images/Jipalogonew.png"
 import Gcb from "../images/Gcb.png"
 
 import Vroom from "../images/vroom.png"
@@ -75,7 +75,7 @@ export const navLinks = [
       {
         id: 5,
         title: "Resources",
-        image: Vroom,
+        image: Gcb,
       
       },
       {
@@ -87,7 +87,7 @@ export const navLinks = [
       {
         id: 6,
         title: "Resources",
-        image:  Credify,
+        image:  Jipa,
       
       },
       

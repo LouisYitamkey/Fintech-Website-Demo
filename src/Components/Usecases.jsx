@@ -9,7 +9,7 @@ const Usecases = ( ) => {
     <div className=' pt-20  pb-6 md:pt-32 md:px-52 md:pb-36  w-full'>
 
         <div className='pl-3 md:pl-0'>
-        <h1> <span className='md:text-2xl text-xl   md:pl-1 text-[#093554]  md:font-bold '> Powerful Use Cases</span> </h1>
+        <span className='md:text-xl text-2xl pl-3 bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Powerful Use Cases</span> 
         <h1 className='md:text-5xl hidden md:block text-[#093554] md:py-6  text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '> Smarter financial services for every industry </h1>
         <h1 className='md:text-7xl text-[#093554] md:hidden pb-10 pt-2  text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
         </div>

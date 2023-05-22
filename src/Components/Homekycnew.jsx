@@ -111,7 +111,7 @@ import {
             
           </Col>
           <Col className='md:pt-32 md:pb-24' span={12} md={7}>
-          <h1> <span className='md:text-2xl text-xl hidden md:block   text-left text-[#093554]  md:font-bold '> Enhanced KYC</span> </h1>
+          <span className='md:text-xl text-2xl pl-3 hidden md:block  md:pl-1 text-[#7991a2]  md:font-bold '> Enhanced KYC </span> 
           <h1 className='md:text-5xl hidden text-[#093554] md:block  md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '>The easiest way to  Verify and Onboard  users. </h1>
 
        <p className=' md:pt-1 pb-10 md:pb-8 text-lg    md:leading-[30px]  md:px-0  ' >

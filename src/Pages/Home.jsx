@@ -36,6 +36,7 @@ const Home = () => {
       <div className='md:px-48 md:py-16 bg-slate-50 '>
       <FeaturesTitle />
       </div>
+      
       <div>
       <Usecases />
       </div>

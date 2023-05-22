@@ -11,7 +11,7 @@ const Experts = () => {
   return (
     <div className='bg-[#11243e]  text-white'>
         <div className='flex justify-center items-center  pt-24 md:pt-28'>
-        <h1> <span className='md:text-2xl text-xl  text-[#7991a2]   font-bold '> Why Truecaller?</span> </h1>
+        <span className='md:text-xl text-2xl  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Why  Pavelon?</span> 
         </div>
 
         <h1 className='md:text-5xl md:pb-14 hidden md:block text-center text-white md:py-6 tracking-wide text-4xl pl-10 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[39px] md:leading-[50px]' > We're open banking experts </h1>
