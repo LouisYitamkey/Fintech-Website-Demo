@@ -1,7 +1,7 @@
 import Partnerslogo from "../images/yangonew.png"
 import Cml from "../images/cml.png"
 import Tf from "../images/Tf.png"
-import Jireh from "../images/Jireh.png"
+import Jireh from "../images/jirehlogo.png"
 import Jipa from "../images/Jipalogof.png"
 import Gcb from "../images/Gcb.png"
 
