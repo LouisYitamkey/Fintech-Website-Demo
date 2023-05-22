@@ -97,9 +97,9 @@ import {
       <div  className={classes.wrapper} >
         <Grid  gutter={80} >
           <Col  span={12} md={5}>
-          <h1> <span className='md:text-2xl text-xl md:hidden   text-center text-[#093554]  md:font-bold '> Enhanced KYC</span> </h1>
+          <span className='md:text-xl text-base ml-3  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Enhanced KYC</span> 
          
-             <h1 className='md:text-7xl md:hidden text-[#093554]  md:pb-10 pt-4  text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> The easiest way to Verify and Onboard users. </h1>
+             <h1 className='md:text-7xl md:hidden text-[#093554]  md:pb-10 pt-6  text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> The easiest way to Verify and Onboard users. </h1>
 
            <div className='md:pt-20 pt-10 flex justify-center items-center'>
            <video  className='w-80 border-8    rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />

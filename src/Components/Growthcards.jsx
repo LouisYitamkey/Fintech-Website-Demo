@@ -114,7 +114,7 @@ import {
        
   
         <Title id='growth' order={2} className={`${classes.title} text-[#093554] `} ta="left" mt="sm">
-        <span className='md:text-xl text-2xl  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Your platform for growth</span> 
+        <span className='md:text-xl text-base ml-3  bg-sky-500 px-5  rounded-full text-white  md:font-bold '> Your platform for growth</span> 
         </Title>
   
       
