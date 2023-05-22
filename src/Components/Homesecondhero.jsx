@@ -16,9 +16,9 @@ const Homesecondhero = () => {
         <div className="flex flex-row items-center py-[6px]  md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
      <div>
   
-    <span className='md:text-xl text-2xl pl-3 bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Credit Infrastructure</span> 
+    <span className='md:text-xl text-base ml-4  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Credit Infrastructure</span> 
        <h1 className=' hidden md:block text-[#093554] md:text-5xl md:pt-5  md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '>Give your customers the ability to borrow on demand.</h1>
-       <h1 className='md:text-7xl text-[#093554] md:hidden pb-10 pt-2  text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
+       <h1 className='md:text-7xl text-[#093554] md:hidden pb-10 pt-6  text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>
        <div className='md:hidden mb-10 flex items-center justify-center'>
 
 <video  className='w-80 border-8  rounded-3xl border-slate-200 ' autoPlay muted loop src={Secondvideo} />
