@@ -97,7 +97,7 @@ import {
       <div  className={classes.wrapper} >
         <Grid  gutter={80} >
           <Col  span={12} md={5}>
-          <span className='md:text-xl text-base ml-3  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Enhanced KYC</span> 
+          <span className='md:text-xl text-base ml-3  md:hidden bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Enhanced KYC</span> 
          
              <h1 className='md:text-7xl md:hidden text-[#093554]  md:pb-10 pt-6  text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> The easiest way to Verify and Onboard users. </h1>
 
