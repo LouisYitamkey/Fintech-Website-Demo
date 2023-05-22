@@ -95,7 +95,7 @@ import {
        
   
         <Title id="usecases"  order={2}  className={`${classes.title} text-[#093554] font-bold`} ta="left" mt="sm">
-        Use Cases
+        <span className='md:text-xl text-2xl  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Use Cases</span> 
         </Title>
   
         

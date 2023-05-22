@@ -9,6 +9,7 @@ const Explorecards = () => {
     <div className='py-20 md:py-20 md:pt-16 md:px-52 md:pb-28  w-full'>
 
     <div className='pl-3 md:pl-0'>
+    <span className='md:text-xl text-2xl  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Industry focused</span> 
 
     <h1 className='md:text-4xl hidden md:block  md:py-6  text-4xl pl-10 md:pl-0 font-extrabold md:font-extrabold ss:leading-[100.8px] leading-[39px] md:leading-[50px] '> Explore Truelayer for your industry </h1>
     <h1 className='md:text-7xl md:hidden pb-5 pt-2  text-4xl  md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Build better payments <br/> experiences </h1>

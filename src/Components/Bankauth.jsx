@@ -13,7 +13,7 @@ const Bankauth = () => {
 <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
   <div className="flex flex-row items-center   md:pl-28 bg-discount-gradient rounded-[10px] mb-2">
 <div>
-<span className='md:text-xl text-2xl pl-3   md:pl-1 text-slate-200  md:font-bold '> Bank authentication</span> 
+<span className='md:text-xl text-2xl  bg-sky-500 px-5    rounded-full text-white  md:font-bold '> Bank Authentication</span> 
  <h1 className=' hidden md:block md:text-5xl md:pt-5 text-white md:pb-10 tracking-wide text-4xl pl-10 md:pl-0   ss:leading-[100.8px] leading-[39px] md:leading-[50px] font-extrabold '> Slash your fraud risk </h1>
  <h1 className='md:text-7xl md:hidden pb-10 pt-2 text-white text-4xl pl-3 md:pl-0 font-extrabold md:font-bold ss:leading-[100.8px] leading-[30px] md:leading-[60px] '> Slash your fraud risk</h1>
  <div className='md:hidden mb-10 flex items-center justify-center'>
