@@ -3,6 +3,7 @@ import { HeaderMegaMenu } from "./Components/Newnavbar";
 import Home from "./Pages/Home";
 import { DigitalLending } from "./Pages/DigitalLending";
 import Kyc from "./Pages/Kyc";
+import Capitalbyapi from "./Pages/Capitalbyapi";
 import { NotFoundImage } from "./Components/Errorpage";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={ <Home/> } />
           <Route path="/digitalLending" element={ <DigitalLending/> } />
           <Route path="/kyc" element={ <Kyc/> } />
+          <Route path="/capitalbyapi" element={ <Capitalbyapi/> } />
           <Route path="*" element={ <NotFoundImage/> } />
 
     

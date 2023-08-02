@@ -110,7 +110,7 @@ import {
       icon: IconBook,
       title: 'Capital by API',
       description: 'Lend money to users at scale',
-    //   path: '/capital-by-api'
+      path: '/capitalbyapi'
     },
     {
       icon: IconFingerprint,
@@ -132,6 +132,34 @@ import {
     },
   ];
   
+
+  const mockdata2 = [
+    {
+      icon: IconBook,
+      title: 'Buy Now Pay Later',
+      description: 'Description for BNPL',
+      path: '/new-feature-1',
+    },
+    {
+      icon: IconChartPie3,
+      title: 'Installment Loans',
+      description: 'Description for installment loans',
+      path: '/new-feature-2',
+    },
+    {
+      icon: IconChartPie3,
+      title: 'Payment Cards',
+      description: 'Description for payment cards',
+      path: '/new-feature-2',
+    },
+    {
+      icon: IconChartPie3,
+      title: 'Next Gen Constructs',
+      description: 'Description for payment cards',
+      path: '/new-feature-2',
+    },
+    // Add more items for additional links
+  ];
   
   export function HeaderMegaMenu() {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
@@ -155,6 +183,25 @@ import {
           </Group>
         </Link>
       ));
+
+      const linksNewUseCases = mockdata2.map((item) => (
+        <Link to={item.path} className={classes.subLink} key={item.title}>
+          <Group noWrap align="flex-start">
+            <ThemeIcon size={34} variant="default" radius="md">
+              <item.icon size={rem(22)} color={theme.fn.primaryColor()} />
+            </ThemeIcon>
+            <div>
+              <Text size="md" fw={500}>
+                {item.title}
+              </Text>
+              <Text size="sm" color="dimmed">
+                {item.description}
+              </Text>
+            </div>
+          </Group>
+        </Link>
+      ));
+      
       
   
     return (
@@ -205,13 +252,53 @@ import {
                   </div>
                 </HoverCard.Dropdown>
               </HoverCard>
+             
               <a href="#" className={classes.link}>
                 Solutions
               </a>
-              <a href="#" className={classes.link}>
-                Use Cases
-              </a>
+              <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
+                <HoverCard.Target>
+                  <a href="#" className={classes.link} >
+                    <Center inline>
+                      <Box component="span" mr={5}>
+                        Use Cases
+                      </Box>
+                      <IconChevronDown size={16}  />
+                    </Center>
+                  </a>
+                </HoverCard.Target>
+  
+                <HoverCard.Dropdown sx={{ overflow: 'hidden' }}>
+                  <Group  position="apart" px="md">
+                    <Text fw={500}>Features</Text>
+                  
+                  </Group>
+  
+                  <Divider
+                    my="sm"
+                    mx="-md"
+                    color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
+                  />
+  
+                  <SimpleGrid  cols={2} spacing={0}>
+                    
+                    {linksNewUseCases}
+                  
+                   
+                  </SimpleGrid>
+  
+                  <div className={classes.dropdownFooter}>
+                    <Group position="apart">
+                     
+                    
+                    </Group>
+                  </div>
+                </HoverCard.Dropdown>
+              </HoverCard>
+              
             </Group>
+
+          
   
             <Group className={classes.hiddenMobile}>
               <Button className=' py-3' variant="default">Contact Us</Button>
