@@ -13,63 +13,48 @@ import { FeaturesTitle } from '../Components/Homekycnew'
 
 import Footer from '../Components/Footer'
 
-
-
 const Home = () => {
-  
   return (
     <div>
-        <div>
-        <Homehero/>
-
-        </div>
-
       <div>
-      <Homesecondhero />
+        <Homehero />
       </div>
 
       <div>
-      <Partners />
-      </div>
-
-    
-      <div className='md:px-48 md:py-16 bg-slate-50 '>
-      <FeaturesTitle />
-      </div>
-      
-      <div>
-      <Usecases />
+        <Homesecondhero />
       </div>
 
       <div>
-      <Experts />
+        <Partners />
+      </div>
 
+      <div className="md:px-48 md:py-16 bg-slate-50 ">
+        <FeaturesTitle />
       </div>
 
       <div>
-        <Developers/>
+        <Usecases />
       </div>
 
-      <div className='py-10 md:py-4 md:bg-slate-50'>
-      <FaqWithImage />
+      <div>
+        <Experts />
       </div>
 
-    
+      <div>
+        <Developers />
+      </div>
 
-   
-       <div>
-        <Global/>
-       </div>
-      
-       
-       <div>
-        <Footer/>
-    
-       </div>
+      <div className="py-10 md:py-4 md:bg-slate-50">
+        <FaqWithImage />
+      </div>
 
-      
+      <div>
+        <Global />
+      </div>
 
-      
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }

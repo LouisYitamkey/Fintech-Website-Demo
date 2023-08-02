@@ -5,8 +5,8 @@ import Capitalapiheropage from '../Components/Capitalapihero'
 const Capitalbyapi = () => {
   return (
     <div>
-      <Capitalapiheropage/>
-      <Footer/>
+      <Capitalapiheropage />
+      <Footer />
     </div>
   )
 }
